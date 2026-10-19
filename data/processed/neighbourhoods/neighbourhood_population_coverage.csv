@@ -1,0 +1,159 @@
+neighbourhood_code,neighbourhood_name,candidate_site_count,parks_site_count,crem_site_count,accessibility_reported_site_count,underlying_record_count,population_2021_estimate,sites_per_10000_residents,accessibility_reported_sites_per_10000,population_source_indicator
+153,Avondale,0,0,0,0,0,13790,0.0,0.0,Total - Age groups of the population - 25% sample data
+169,Bay-Cloverhill,0,0,0,0,0,16670,0.0,0.0,Total - Age groups of the population - 25% sample data
+157,Bendale South,0,0,0,0,0,10725,0.0,0.0,Total - Age groups of the population - 25% sample data
+069,Blake-Jones,0,0,0,0,0,7475,0.0,0.0,Total - Age groups of the population - 25% sample data
+108,Briar Hill-Belgravia,0,0,0,0,0,14575,0.0,0.0,Total - Age groups of the population - 25% sample data
+057,Broadview North,0,0,0,0,0,10955,0.0,0.0,Total - Age groups of the population - 25% sample data
+030,Brookhaven-Amesbury,0,0,0,0,0,17495,0.0,0.0,Total - Age groups of the population - 25% sample data
+109,Caledonia-Fairbank,0,0,0,0,0,10015,0.0,0.0,Total - Age groups of the population - 25% sample data
+167,Church-Wellesley,0,0,0,0,0,22320,0.0,0.0,Total - Age groups of the population - 25% sample data
+159,Etobicoke City Centre,0,0,0,0,0,23600,0.0,0.0,Total - Age groups of the population - 25% sample data
+150,Fenside-Parkwoods,0,0,0,0,0,20510,0.0,0.0,Total - Age groups of the population - 25% sample data
+101,Forest Hill South,0,0,0,0,0,10860,0.0,0.0,Total - Age groups of the population - 25% sample data
+134,Highland Creek,0,0,0,0,0,12625,0.0,0.0,Total - Age groups of the population - 25% sample data
+147,L'Amoreaux West,0,0,0,0,0,21545,0.0,0.0,Total - Age groups of the population - 25% sample data
+029,Maple Leaf,0,0,0,0,0,9845,0.0,0.0,Total - Age groups of the population - 25% sample data
+050,Newtonbrook East,0,0,0,0,0,15345,0.0,0.0,Total - Age groups of the population - 25% sample data
+173,North Toronto,0,0,0,0,0,15885,0.0,0.0,Total - Age groups of the population - 25% sample data
+023,Pelmo Park-Humberlea,0,0,0,0,0,11290,0.0,0.0,Total - Age groups of the population - 25% sample data
+067,Playter Estates-Danforth,0,0,0,0,0,7680,0.0,0.0,Total - Age groups of the population - 25% sample data
+010,Princess-Rosethorn,0,0,0,0,0,11170,0.0,0.0,Total - Age groups of the population - 25% sample data
+089,Runnymede-Bloor West Village,0,0,0,0,0,10120,0.0,0.0,Total - Age groups of the population - 25% sample data
+040,St.Andrew-Windfields,0,0,0,0,0,16960,0.0,0.0,Total - Age groups of the population - 25% sample data
+079,University,0,0,0,0,0,6435,0.0,0.0,Total - Age groups of the population - 25% sample data
+091,Weston-Pelham Park,0,0,0,0,0,10680,0.0,0.0,Total - Age groups of the population - 25% sample data
+151,Yonge-Doris,0,0,0,0,0,20160,0.0,0.0,Total - Age groups of the population - 25% sample data
+097,Yonge-St.Clair,0,0,0,0,0,12905,0.0,0.0,Total - Age groups of the population - 25% sample data
+165,Harbourfront-CityPlace,1,1,0,0,1,28135,0.355,0.0,Total - Age groups of the population - 25% sample data
+129,Agincourt North,1,1,0,1,1,27540,0.363,0.363,Total - Age groups of the population - 25% sample data
+141,Golfdale-Cedarbrae-Woburn,1,1,0,0,1,27085,0.369,0.0,Total - Age groups of the population - 25% sample data
+142,Woburn North,1,1,0,0,1,26580,0.376,0.0,Total - Age groups of the population - 25% sample data
+164,Wellington Place,1,0,1,1,8,25570,0.391,0.391,Total - Age groups of the population - 25% sample data
+144,Morningside Heights,1,1,0,1,1,24940,0.401,0.401,Total - Age groups of the population - 25% sample data
+128,Agincourt South-Malvern West,1,1,0,0,1,24170,0.414,0.0,Total - Age groups of the population - 25% sample data
+036,Newtonbrook West,1,1,0,1,1,23805,0.42,0.42,Total - Age groups of the population - 25% sample data
+158,Islington,1,1,0,0,1,23460,0.426,0.0,Total - Age groups of the population - 25% sample data
+174,South Eglinton-Davisville,1,1,0,1,1,22735,0.44,0.44,Total - Age groups of the population - 25% sample data
+138,Eglinton East,1,1,0,0,1,22535,0.444,0.0,Total - Age groups of the population - 25% sample data
+006,Kingsview Village-The Westway,1,1,0,0,1,22005,0.454,0.0,Total - Age groups of the population - 25% sample data
+073,Moss Park,1,1,0,0,1,21490,0.465,0.0,Total - Age groups of the population - 25% sample data
+024,Black Creek,1,1,0,1,1,21145,0.473,0.473,Total - Age groups of the population - 25% sample data
+107,Oakwood Village,1,1,0,0,1,20710,0.483,0.0,Total - Age groups of the population - 25% sample data
+053,Henry Farm,1,1,0,0,1,19840,0.504,0.0,Total - Age groups of the population - 25% sample data
+113,Weston,1,1,0,0,1,18675,0.535,0.0,Total - Age groups of the population - 25% sample data
+074,North St.James Town,1,1,0,0,1,18535,0.54,0.0,Total - Age groups of the population - 25% sample data
+168,Downtown Yonge East,1,0,1,1,13,17700,0.565,0.565,Total - Age groups of the population - 25% sample data
+033,Clanton Park,1,1,0,1,1,17620,0.568,0.568,Total - Age groups of the population - 25% sample data
+022,Humbermede,1,1,0,0,1,16955,0.59,0.0,Total - Age groups of the population - 25% sample data
+031,Yorkdale-Glen Park,1,1,0,0,1,16625,0.602,0.0,Total - Age groups of the population - 25% sample data
+099,Mount Pleasant East,1,1,0,0,1,16370,0.611,0.0,Total - Age groups of the population - 25% sample data
+048,Hillcrest Village,1,1,0,0,1,16345,0.612,0.0,Total - Age groups of the population - 25% sample data
+034,Bathurst Manor,1,1,0,0,1,15955,0.627,0.0,Total - Age groups of the population - 25% sample data
+084,Little Portugal,1,1,0,0,1,15485,0.646,0.0,Total - Age groups of the population - 25% sample data
+086,Roncesvalles,1,1,0,1,1,14610,0.684,0.684,Total - Age groups of the population - 25% sample data
+027,York University Heights,2,2,0,1,2,28255,0.708,0.354,Total - Age groups of the population - 25% sample data
+090,Junction Area,1,1,0,1,1,14010,0.714,0.714,Total - Age groups of the population - 25% sample data
+149,Parkwoods-O'Connor Hills,1,1,0,0,1,13965,0.716,0.0,Total - Age groups of the population - 25% sample data
+106,Humewood-Cedarvale,1,1,0,0,1,13845,0.722,0.0,Total - Age groups of the population - 25% sample data
+042,Banbury-Don Mills,2,2,0,1,2,27155,0.737,0.368,Total - Age groups of the population - 25% sample data
+120,Clairlea-Birchmount,2,2,0,1,2,26840,0.745,0.373,Total - Age groups of the population - 25% sample data
+047,Don Valley Village,2,2,0,1,2,26775,0.747,0.373,Total - Age groups of the population - 25% sample data
+125,Ionview,1,1,0,0,1,13365,0.748,0.0,Total - Age groups of the population - 25% sample data
+146,Malvern East,2,2,0,1,2,26095,0.766,0.383,Total - Age groups of the population - 25% sample data
+094,Wychwood,1,1,0,0,1,12800,0.781,0.0,Total - Age groups of the population - 25% sample data
+102,Forest Hill North,1,1,0,1,1,12290,0.814,0.814,Total - Age groups of the population - 25% sample data
+064,Woodbine Corridor,1,1,0,0,1,12205,0.819,0.0,Total - Age groups of the population - 25% sample data
+126,Dorset Park,2,2,0,1,2,24305,0.823,0.411,Total - Age groups of the population - 25% sample data
+049,Bayview Woods-Steeles,1,1,0,0,1,12085,0.827,0.0,Total - Age groups of the population - 25% sample data
+130,Milliken,2,2,0,1,2,23980,0.834,0.417,Total - Age groups of the population - 25% sample data
+110,Keelesdale-Eglinton West,1,1,0,0,1,11390,0.878,0.0,Total - Age groups of the population - 25% sample data
+116,Steeles,2,2,0,1,2,22765,0.879,0.439,Total - Age groups of the population - 25% sample data
+052,Bayview Village,2,2,0,2,2,22330,0.896,0.896,Total - Age groups of the population - 25% sample data
+111,Rockcliffe-Smythe,2,2,0,0,2,22235,0.899,0.0,Total - Age groups of the population - 25% sample data
+088,High Park North,2,2,0,1,2,21855,0.915,0.458,Total - Age groups of the population - 25% sample data
+148,East L'Amoreaux,2,2,0,0,2,21495,0.93,0.0,Total - Age groups of the population - 25% sample data
+154,Oakdale-Beverley Heights,2,2,0,0,2,21420,0.934,0.0,Total - Age groups of the population - 25% sample data
+004,Rexdale-Kipling,1,1,0,0,1,10375,0.964,0.0,Total - Age groups of the population - 25% sample data
+012,Markland Wood,1,1,0,1,1,10365,0.965,0.965,Total - Age groups of the population - 25% sample data
+143,West Rouge,2,2,0,2,2,20670,0.968,0.968,Total - Age groups of the population - 25% sample data
+055,Thorncliffe Park,2,2,0,0,2,20400,0.98,0.0,Total - Age groups of the population - 25% sample data
+008,Humber Heights-Westmount,1,1,0,0,1,10005,1.0,0.0,Total - Age groups of the population - 25% sample data
+163,Fort York-Liberty Village,2,2,0,1,2,19915,1.004,0.502,Total - Age groups of the population - 25% sample data
+003,Thistletown-Beaumond Heights,1,1,0,0,1,9850,1.015,0.0,Total - Age groups of the population - 25% sample data
+095,Annex,3,3,0,2,3,29300,1.024,0.683,Total - Age groups of the population - 25% sample data
+140,Guildwood,1,1,0,0,1,9680,1.033,0.0,Total - Age groups of the population - 25% sample data
+028,Rustic,1,1,0,0,1,9390,1.065,0.0,Total - Age groups of the population - 25% sample data
+136,West Hill,3,3,0,2,3,28140,1.066,0.711,Total - Age groups of the population - 25% sample data
+066,Danforth,1,1,0,0,1,9305,1.075,0.0,Total - Age groups of the population - 25% sample data
+058,Old East York,1,1,0,0,1,9160,1.092,0.0,Total - Age groups of the population - 25% sample data
+155,Downsview,2,2,0,1,2,17970,1.113,0.556,Total - Age groups of the population - 25% sample data
+043,Victoria Village,2,2,0,0,2,17365,1.152,0.0,Total - Age groups of the population - 25% sample data
+145,Malvern West,2,2,0,2,2,17320,1.155,1.155,Total - Age groups of the population - 25% sample data
+035,Westminster-Branson,3,3,0,0,3,25705,1.167,0.0,Total - Age groups of the population - 25% sample data
+124,Kennedy Park,2,2,0,1,2,17110,1.169,0.584,Total - Age groups of the population - 25% sample data
+016,Stonegate-Queensway,3,3,0,0,3,25650,1.17,0.0,Total - Age groups of the population - 25% sample data
+160,Mimico-Queensway,2,2,0,0,2,17045,1.173,0.0,Total - Age groups of the population - 25% sample data
+139,Scarborough Village,2,2,0,2,2,16520,1.211,1.211,Total - Age groups of the population - 25% sample data
+114,Lambton Baby Point,1,1,0,0,1,7965,1.255,0.0,Total - Age groups of the population - 25% sample data
+171,Junction-Wallace Emerson,3,3,0,1,3,23180,1.294,0.431,Total - Age groups of the population - 25% sample data
+046,Pleasant View,2,2,0,0,2,15220,1.314,0.0,Total - Age groups of the population - 25% sample data
+161,Humber Bay Shores,3,3,0,1,3,22605,1.327,0.442,Total - Age groups of the population - 25% sample data
+061,Taylor-Massey,2,2,0,0,2,15025,1.331,0.0,Total - Age groups of the population - 25% sample data
+044,Flemingdon Park,3,3,0,3,3,22530,1.332,1.332,Total - Age groups of the population - 25% sample data
+039,Bedford Park-Nortown,3,3,0,0,3,22145,1.355,0.0,Total - Age groups of the population - 25% sample data
+105,Lawrence Park North,2,2,0,2,2,14675,1.363,1.363,Total - Age groups of the population - 25% sample data
+062,East End-Danforth,3,3,0,1,3,21840,1.374,0.458,Total - Age groups of the population - 25% sample data
+032,Englemount-Lawrence,3,3,0,0,3,21285,1.409,0.0,Total - Age groups of the population - 25% sample data
+119,Wexford/Maryvale,4,4,0,2,4,28345,1.411,0.706,Total - Age groups of the population - 25% sample data
+133,Centennial Scarborough,2,2,0,0,2,13380,1.495,0.0,Total - Age groups of the population - 25% sample data
+001,West Humber-Clairville,5,5,0,2,5,33300,1.502,0.601,Total - Age groups of the population - 25% sample data
+162,West Queen West,2,2,0,1,2,13170,1.519,0.759,Total - Age groups of the population - 25% sample data
+080,Palmerston-Little Italy,2,2,0,1,2,13120,1.524,0.762,Total - Age groups of the population - 25% sample data
+002,Mount Olive-Silverstone-Jamestown,5,5,0,0,5,31345,1.595,0.0,Total - Age groups of the population - 25% sample data
+112,Beechborough-Greenbrook,1,0,1,1,9,6260,1.597,1.597,Total - Age groups of the population - 25% sample data
+054,O'Connor-Parkview,3,3,0,2,3,18405,1.63,1.087,Total - Age groups of the population - 25% sample data
+021,Humber Summit,2,2,0,2,2,12185,1.641,1.641,Total - Age groups of the population - 25% sample data
+059,Danforth East York,3,2,1,2,15,17065,1.758,1.172,Total - Age groups of the population - 25% sample data
+019,Long Branch,2,2,0,1,2,11360,1.761,0.88,Total - Age groups of the population - 25% sample data
+096,Casa Loma,2,2,0,1,2,11350,1.762,0.881,Total - Age groups of the population - 25% sample data
+007,Willowridge-Martingrove-Richview,4,4,0,0,4,22445,1.782,0.0,Total - Age groups of the population - 25% sample data
+056,Leaside-Bennington,3,3,0,2,3,16535,1.814,1.21,Total - Age groups of the population - 25% sample data
+118,Tam O'Shanter-Sullivan,5,5,0,2,5,27205,1.838,0.735,Total - Age groups of the population - 25% sample data
+152,East Willowdale,3,3,0,2,3,15485,1.937,1.292,Total - Age groups of the population - 25% sample data
+098,Rosedale-Moore Park,4,4,0,2,4,20080,1.992,0.996,Total - Age groups of the population - 25% sample data
+025,Glenfield-Jane Heights,6,6,0,3,6,30020,1.999,0.999,Total - Age groups of the population - 25% sample data
+103,Lawrence Park South,3,3,0,2,3,14960,2.005,1.337,Total - Age groups of the population - 25% sample data
+121,Oakridge,3,3,0,1,3,13705,2.189,0.73,Total - Age groups of the population - 25% sample data
+092,Corso Italia-Davenport,3,3,0,1,3,13200,2.273,0.758,Total - Age groups of the population - 25% sample data
+037,Willowdale West,4,3,1,2,33,17160,2.331,1.166,Total - Age groups of the population - 25% sample data
+072,Regent Park,3,3,0,1,3,12750,2.353,0.784,Total - Age groups of the population - 25% sample data
+170,Yonge-Bay Corridor,3,2,1,1,5,12645,2.372,0.791,Total - Age groups of the population - 25% sample data
+100,Yonge-Eglinton,3,3,0,2,3,12410,2.417,1.612,Total - Age groups of the population - 25% sample data
+172,Dovercourt Village,3,3,0,0,3,12380,2.423,0.0,Total - Age groups of the population - 25% sample data
+123,Cliffcrest,4,4,0,1,4,16130,2.48,0.62,Total - Age groups of the population - 25% sample data
+060,Woodbine-Lumsden,2,2,0,1,2,7915,2.527,1.263,Total - Age groups of the population - 25% sample data
+013,Etobicoke West Mall,3,2,1,0,20,11865,2.528,0.0,Total - Age groups of the population - 25% sample data
+081,Trinity-Bellwoods,4,4,0,3,4,15415,2.595,1.946,Total - Age groups of the population - 25% sample data
+009,Edenbridge-Humber Valley,4,4,0,0,4,15190,2.633,0.0,Total - Age groups of the population - 25% sample data
+122,Birchcliffe-Cliffside,6,6,0,5,6,22700,2.643,2.203,Total - Age groups of the population - 25% sample data
+083,Dufferin Grove,3,3,0,1,3,11215,2.675,0.892,Total - Age groups of the population - 25% sample data
+071,Cabbagetown-South St.James Town,3,3,0,0,3,11020,2.722,0.0,Total - Age groups of the population - 25% sample data
+135,Morningside,5,5,0,2,5,17660,2.831,1.133,Total - Age groups of the population - 25% sample data
+065,Greenwood-Coxwell,4,4,0,3,4,14120,2.833,2.125,Total - Age groups of the population - 25% sample data
+085,South Parkdale,6,6,0,4,6,20495,2.928,1.952,Total - Age groups of the population - 25% sample data
+115,Mount Dennis,4,4,0,4,4,13055,3.064,3.064,Total - Age groups of the population - 25% sample data
+038,Lansing-Westgate,5,5,0,3,5,15910,3.143,1.886,Total - Age groups of the population - 25% sample data
+005,Elms-Old Rexdale,3,3,0,1,3,9355,3.207,1.069,Total - Age groups of the population - 25% sample data
+156,Bendale-Glen Andrew,6,4,2,1,12,18685,3.211,0.535,Total - Age groups of the population - 25% sample data
+063,The Beaches,7,7,0,5,7,21510,3.254,2.325,Total - Age groups of the population - 25% sample data
+078,Kensington-Chinatown,6,6,0,3,6,18120,3.311,1.656,Total - Age groups of the population - 25% sample data
+041,Bridle Path-Sunnybrook-York Mills,3,3,0,1,3,8940,3.356,1.119,Total - Age groups of the population - 25% sample data
+020,Alderwood,5,5,0,3,5,12595,3.97,2.382,Total - Age groups of the population - 25% sample data
+087,High Park-Swansea,10,10,0,7,10,22665,4.412,3.088,Total - Age groups of the population - 25% sample data
+068,North Riverdale,5,5,0,1,5,11290,4.429,0.886,Total - Age groups of the population - 25% sample data
+015,Kingsway South,4,4,0,1,4,8855,4.517,1.129,Total - Age groups of the population - 25% sample data
+018,New Toronto,6,6,0,0,6,11345,5.289,0.0,Total - Age groups of the population - 25% sample data
+070,South Riverdale,15,15,0,8,15,27815,5.393,2.876,Total - Age groups of the population - 25% sample data
+166,St Lawrence-East Bayfront-The Islands,21,18,3,14,35,31285,6.712,4.475,Total - Age groups of the population - 25% sample data
+011,Eringate-Centennial-West Deane,14,14,0,4,14,18450,7.588,2.168,Total - Age groups of the population - 25% sample data

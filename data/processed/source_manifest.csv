@@ -1,0 +1,50 @@
+filename,extension,bytes,sha256,source_url,retrieved_date,license,dataset_role,review_status
+.DS_Store,,30724,0f8bbd0f86573cad2bc721e0987d130b91c0686e51ede63c92fbce5fa817eb96,,,,unclassified,pending
+311-service-request-codes.xls,.xls,2233856,e86746116ec4854255ba4c9a7d0f9f451e8ab1f80d9f223ab64b8c8623570958,,,,unclassified,pending
+Air Conditioned and Cool Spaces - 4326.geojson,.geojson,292791,d2fd0d54213dce1f76a6e3ea1d762f020a6e96a0a68d107c5c55932b50f7d069,,,,unclassified,pending
+Arrested and Charged Persons.csv,.csv,17562484,e1ac101974c101f5a0a623e9803a0cd2f91b62df6401a40b5221f5549a41b9ae,,,,unclassified,pending
+CREM Public Washrooms - 4326.csv,.csv,35952,880f71d61b0134e45b1e30094d8a504a7b81da402def8cc0dc9379714aa4b0c3,,,,unclassified,pending
+CREM Public Washrooms - 4326.geojson,.geojson,71531,63906781c921ff5c0ce37584397dceae9b9802a826e5364f224999dda5f6ee9b,,,,unclassified,pending
+Calls for Service Attended.csv,.csv,291104,bd7617ec59efb6a17aef93ed95d898b2b670938403bd4d1599bccb09c53f55c9,,,,unclassified,pending
+Centreline - Version 2 - 4326.geojson,.geojson,93338839,026f4d3d6db308f4df762a17eeafe1ebc93488c90de4c341dd42436941630980,,,,unclassified,pending
+Centreline Intersection - 4326.geojson,.geojson,33891072,8de3cab9244fb8512a6d0abe1e80745c1b098471956d9e330640bd8d1b300f71,,,,unclassified,pending
+Community Council Boundaries Data - 4326.geojson,.geojson,749891,53bcd48fa18b05980630e408eb5d8795e014c4d6b0b5f60a982ef8f8f036ad2b,,,,unclassified,pending
+Green Spaces - 4326.csv,.csv,17918433,2a6e5240783407d12c8efbf4cceaa6d41023500a8f39726af7e0ef0d6e4baa98,,,,unclassified,pending
+Green Spaces - 4326.geojson,.geojson,21327760,ffa1d410db63c5e76f6eddff8f2b38c48c9e3e5f5fef453bbfcee29377df9abe,,,,unclassified,pending
+Museums and Cultural Centres.csv,.csv,2115,beb0edcdc0d674fa28941041adfdbba2ede61fb9ef50defed1e246320a70c9a4,,,,unclassified,pending
+NIA Methodology FAQ.docx,.docx,17884,b4eba5f6e842a0e694203f82b5f3bc16afb249368b5691d0a4bd8223662947ac,,,,unclassified,pending
+NIB EHON Update by Ward.xlsx,.xlsx,12869,8fe71844457389857d06ac01ed7cc3d8b55aab23c5930189af23f0523271bd2d,,,,unclassified,pending
+Online Survey Results.xlsx,.xlsx,1012165,594f3fbe24bee2b4ad0dfbd91c1540fad96e292772d44ef14ff6069cf60c8df9,,,,unclassified,pending
+Parks Drinking Fountains - 4326.geojson,.geojson,595018,aa996860ec25a58266b99a88014634ad268cd1fa69770f0a99ef8953701af626,,,,unclassified,pending
+Persons in Crisis - Calls for Service Attended.csv,.csv,50169237,4cf3c736208f80bc10610cfd3bf6fdbd5344ae85614a6bdc6281dc4d884b423e,,,,unclassified,pending
+Public Consultation Notes  - Readme .xlsx,.xlsx,8887,82394ae3c551666e8362a8608f5be819c669069e267403c7be833573248ba711,,,,unclassified,pending
+Public Consultations.xlsx,.xlsx,36216,b9a4f3d1086c087d343ae8a4ae1b76e3a83c43cc2a18514711bef7dc303911ea,,,,unclassified,pending
+Public washroom data - 4326.csv,.csv,985,122372d518ecafa454cc44031b35d203e2bb128eec0a9fc3086019bf383e41ce,,,,unclassified,pending
+Public washroom data - 4326.geojson,.geojson,2171,99a8a6c9d5372d5a33e032f6873fb6246b0c39147f8e562ebb13b680383c8b04,,,,unclassified,pending
+SR2024.csv,.csv,63125201,ca09abc7cbab0abdc02676b2bfbb351f1dd9c0c1135bdc8d2a1f6574bba8103d,,,,unclassified,pending
+SR2025.csv,.csv,75033804,cc3c78d905eb935eb7e13a7b6e2585d812553dd077ec73e7d72b210ba683b7cc,,,,unclassified,pending
+SR2026.csv,.csv,64966304,a1bef4c89d96c115c176a81d26fb6835951837c6905da9b8311ffd38459638a3,,,,unclassified,pending
+Shelter Intake Activity since 2023.csv,.csv,1620483,3392858a2c6daa6454812da3510d0e89b344c1fdcc4f9b169161c07e5d3a1195,,,,unclassified,pending
+Shelter Outcome Activity since 2023.csv,.csv,1155275,586b140715297f7a397c64b829479e1e7177f4f7053390cf17209bb8b8e241d4,,,,unclassified,pending
+StrollTO POI Details - 4326 2.geojson,.geojson,2313626,2174276567fdcbca2e6f5633141aa7e280a90b56537ec480df0b05b730c38eae,,,,unclassified,pending
+StrollTO POI Details - 4326.csv,.csv,1666184,af260d7fa9f83c7becf84128979593b87d2febbb26da577ace920b99e197eb3e,,,,unclassified,pending
+StrollTO POI Details - 4326.geojson,.geojson,2313626,2174276567fdcbca2e6f5633141aa7e280a90b56537ec480df0b05b730c38eae,,,,unclassified,pending
+StrollTO Starting Points - 4326 2.geojson,.geojson,189853,3ca57df52eeb0e9e8e2be44c8b2cfd56cc47d0323a4c1f2c6d86fd179188b379,,,,unclassified,pending
+StrollTO Starting Points - 4326.csv,.csv,157464,4b9d53e23f8948e111ad907eae9662af53dc158764fa96887bf75762904037bf,,,,unclassified,pending
+StrollTO Starting Points - 4326.geojson,.geojson,189853,3ca57df52eeb0e9e8e2be44c8b2cfd56cc47d0323a4c1f2c6d86fd179188b379,,,,unclassified,pending
+Survey Results Readme.xlsx,.xlsx,12966,ddbd1afc32ff613962c10c28e484d37fda60d6a7f3e606b59277363af211a971,,,,unclassified,pending
+TSNS 2020 NEI Methodological Documentation.docx,.docx,4811367,e24d95a32fd553768c39370a459c587e8ed662002f90316f77969b6b9c9e84bf,,,,unclassified,pending
+TSNS 2020 NIA Census Tracts.xlsx,.xlsx,15685,958a47ff5d51412a27ce31f2adc708f7c0dd219d74298b2974196bb9fedd1efa,,,,unclassified,pending
+Tickets Issued.csv,.csv,7523438,ab539b8780e5fd10c580cedd42ecb21537b64eea1e965201095135bf2be4f127,,,,unclassified,pending
+Toronto Walkability Analysis.pdf,.pdf,37460239,8af9f888892ffae4bae0435ce61a29f5c09640d607df98ffa6f87f73508fed39,,,,unclassified,pending
+Transport Bus Initiative Usage.csv,.csv,4921,e4625b6d7c50df41cd81bad5bc09ec5cb46a5e0aadaa435f9501aa6cf3f24d3b,,,,unclassified,pending
+Workshop Notes -- Readme.xlsx,.xlsx,8686,f2534270575bca39ddfeb5fe7045ab1ae7ae514b669f8e9ebf408078a87f2849,,,,unclassified,pending
+Workshop Notes.xlsx,.xlsx,28252,152bd7fa9e168f5327bb855b6b623c491d5eadce1a9feac3e423fd4539d75683,,,,unclassified,pending
+covid-19-immunization-clinics - 4326.geojson,.geojson,434284,93ebe6b6aed651e36c239849f850f16fa8b8d3cc1df494aa66d5915992bebb38,,,,unclassified,pending
+drop-in-readme.xls,.xls,25600,b3522fd40dd8bd703055b8d807107194b4d2e62f9dd4b4a84ef3936e715e4b7d,,,,unclassified,pending
+mental-health-apprehensions.csv,.csv,28663103,b9cd10560c655e1788da8c71d50131cdcd2d87059466370e4397cc6a695a6ed7,,,,unclassified,pending
+points-of-interest - 4326 2.geojson,.geojson,1535661,e7c4378964baeb2a659163f881b350fc30f3d2bd2ae15785dbd85658e5949445,,,,unclassified,pending
+points-of-interest - 4326.csv,.csv,1070918,ff4401b39716a8814d8f678f822c253f14c4b1cb90957ba613eef1d0b59a1b6d,,,,unclassified,pending
+points-of-interest - 4326.geojson,.geojson,1535661,e7c4378964baeb2a659163f881b350fc30f3d2bd2ae15785dbd85658e5949445,,,,unclassified,pending
+social-housing-unit-density-by-neighbourhoods.xlsx,.xlsx,11705,4bb55244e46014278ac0a895e27354f0adb5e3c1fec775ac8afb1abd584bded5,,,,unclassified,pending
+wellbeing-toronto-environment.xlsx,.xlsx,31091,81eefb4c41b7c216db30ee6e016230d354ffd090eeadd8bdcaccf92ad518e283,,,,unclassified,pending

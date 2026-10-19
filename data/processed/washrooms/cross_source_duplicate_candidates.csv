@@ -1,0 +1,4 @@
+crem_site_id,crem_site_name,crem_address,parks_site_id,parks_site_name,parks_address,distance_metres,review_status,same_physical_site
+crem-site:0001,North York Civic Centre,5100 Yonge Street,parks-site:1715,Douglas Snow Aquatic Centre Washroom,5100 Yonge St,19.24,needs_review,
+crem-site:0001,North York Civic Centre,5100 Yonge Street,parks-site:6296,Mel Lastman Square Washroom,5100 Yonge St,43.95,needs_review,
+crem-site:0010,Scraborough Civic Centre,150 Borough Drive,parks-site:12,Albert Campbell Square Outdoor Rink Washroom,150 Borough Dr,81.95,needs_review,

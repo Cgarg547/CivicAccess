@@ -1,0 +1,60 @@
+[
+  {
+    "source": "parks",
+    "path": "data/raw/washrooms/Washroom Facilities - 4326.geojson",
+    "records": 354,
+    "crs": "EPSG:4326",
+    "geometry_types": {
+      "MultiPoint": 354
+    },
+    "missing_geometries": 0,
+    "empty_geometries": 0,
+    "invalid_coordinate_records": 0,
+    "multi_location_records": 0,
+    "columns": [
+      "_id",
+      "ASSET_ID",
+      "LOCATION",
+      "ALTERNATIVE_NAME",
+      "TYPE",
+      "ACCESSIBLE_FEATURES",
+      "HOURS",
+      "LOCATION_DETAILS",
+      "URL",
+      "ADDRESS",
+      "PostedDate",
+      "AssetName",
+      "Reason",
+      "Comments",
+      "Status"
+    ]
+  },
+  {
+    "source": "crem",
+    "path": "data/raw/CREM Public Washrooms - 4326.geojson",
+    "records": 119,
+    "crs": "EPSG:4326",
+    "geometry_types": {
+      "MultiPoint": 119
+    },
+    "missing_geometries": 0,
+    "empty_geometries": 0,
+    "invalid_coordinate_records": 0,
+    "multi_location_records": 0,
+    "columns": [
+      "_id",
+      "FLOC_ID",
+      "Building Description",
+      "Address",
+      "Ward Name",
+      "District",
+      "Building Type",
+      "Washroom Info",
+      "Gender Inclusive",
+      "Accessible Washroom",
+      "Hours Available",
+      "Location Details",
+      "Washroom Status"
+    ]
+  }
+]

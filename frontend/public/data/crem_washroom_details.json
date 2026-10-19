@@ -1,0 +1,1192 @@
+[
+  {
+    "record_id": "crem:000001",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre Core - 4",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000002",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre Core - 4",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000003",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Centre Core - 4",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000004",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre Core - 3",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000005",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre Core - 3",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000006",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Centre Core - 3",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000007",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre Core - 2",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000008",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre Core - 2",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000009",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Centre Core - 2",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000010",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre Core - 1",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000011",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre Core - 1",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000012",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Centre Core - 1",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000013",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre Core - G",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000014",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre Core - G",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000015",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "South End by Security Desk - G",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000016",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre Core - LL",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000017",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre Core - LL",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000018",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Council Chambers Lobby - LL",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000019",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Council Chambers Lobby - LL",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000020",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Council Chambers Lobby - LL",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000021",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Accessible Male Washroom",
+    "location_details": "Staff Hallway South - LL",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000022",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Accessible Female Washroom",
+    "location_details": "Staff Hallway South - LL",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000023",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Skate Change - LL",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000024",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Skate Change - LL",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000025",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Centre Core - Cafe L",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000026",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Centre Core - Cafe L",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000027",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre Core - Cafe L",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000028",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre Core - Cafe L",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000029",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Male Washroom",
+    "location_details": "Council Chambers Lower Hall - P1",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000030",
+    "site_id": "crem-site:0001",
+    "washroom_info": "Female Washroom",
+    "location_details": "Council Chambers Lower Hall - P1",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000031",
+    "site_id": "crem-site:0002",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Main Floor Cafe",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000032",
+    "site_id": "crem-site:0002",
+    "washroom_info": "Female Washroom",
+    "location_details": "Nathan Phillips Square",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000033",
+    "site_id": "crem-site:0002",
+    "washroom_info": "Male Washroom",
+    "location_details": "Nathan Phillips Square",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 7:30am-9:30pm, Sat-Sun & Holidays 8:00am-6:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000034",
+    "site_id": "crem-site:0003",
+    "washroom_info": "Male Washroom",
+    "location_details": "Lower level by Jarvis St.",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon Closed, Tue-Fri 8:30am-7:30pm, Sat 6:30am-5:30pm, Sun 9:30am-5:30pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000035",
+    "site_id": "crem-site:0003",
+    "washroom_info": "Accessible Male Washroom",
+    "location_details": "Lower level by elevator",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon Closed, Tue-Fri 8:30am-7:30pm, Sat 6:30am-5:30pm, Sun 9:30am-5:30pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000036",
+    "site_id": "crem-site:0003",
+    "washroom_info": "Female Washroom",
+    "location_details": "Lower level by Jarvis St.",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon Closed, Tue-Fri 8:30am-7:30pm, Sat 6:30am-5:30pm, Sun 9:30am-5:30pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000037",
+    "site_id": "crem-site:0003",
+    "washroom_info": "Accessible Female Washroom",
+    "location_details": "Lower level by elevator",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon Closed, Tue-Fri 8:30am-7:30pm, Sat 6:30am-5:30pm, Sun 9:30am-5:30pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000038",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Main floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000039",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Male Washroom",
+    "location_details": "Main floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000040",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Female Washroom",
+    "location_details": "Main floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000041",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Second floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000042",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Second floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000043",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Male Washroom",
+    "location_details": "Third floor by elevators",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000044",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Female Washroom",
+    "location_details": "Third floor by elevators",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000045",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Forth floor North West",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000046",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Forth floor North West",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000047",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Forth floor South East",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000048",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Forth floor South East",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000049",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Male Washroom",
+    "location_details": "Fifth floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000050",
+    "site_id": "crem-site:0004",
+    "washroom_info": "Female Washroom",
+    "location_details": "Fifth floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-4:30pm, Sat 5:00am-4:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000051",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Male Washroom",
+    "location_details": "Food court B2",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000052",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Female Washroom",
+    "location_details": "Food court B2",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000053",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Male Washroom",
+    "location_details": "Promenade",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000054",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Promenade",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000055",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Male Washroom",
+    "location_details": "West Wing, Ground Floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000056",
+    "site_id": "crem-site:0006",
+    "washroom_info": "Male Washroom",
+    "location_details": "Temporary tent",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sat Closed, Sun 10:00am-5:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000057",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Female Washroom",
+    "location_details": "West Wing, Ground Floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000058",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Gender Inclusive Washroom",
+    "location_details": "West Wing, Ground Floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000059",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Male Washroom",
+    "location_details": "West Wing, Ground Floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access to VIA Passengers only"
+  },
+  {
+    "record_id": "crem:000060",
+    "site_id": "crem-site:0006",
+    "washroom_info": "Female Washroom",
+    "location_details": "Temporary tent",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sat Closed, Sun 10:00am-5:00pm",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000061",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Female Washroom",
+    "location_details": "West Wing, Ground Floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access to VIA Passengers only"
+  },
+  {
+    "record_id": "crem:000062",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Male Washroom",
+    "location_details": "Centre, Ground Floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000063",
+    "site_id": "crem-site:0005",
+    "washroom_info": "Female Washroom",
+    "location_details": "Centre, Ground Floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Sun 5:30am-12:45am",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000064",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Male Washroom",
+    "location_details": "David Pecault Square",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000065",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Female Washroom",
+    "location_details": "David Pecault Square",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000066",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Ground Floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000067",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Accessible Male Washroom",
+    "location_details": "Ground Floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000068",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Accessible Female Washroom",
+    "location_details": "Ground Floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000069",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Accessible Female Washroom",
+    "location_details": "3rd Floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000070",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Accessible Male Washroom",
+    "location_details": "3rd Floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000071",
+    "site_id": "crem-site:0007",
+    "washroom_info": "Universal Washroom",
+    "location_details": "3rd Floor",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000072",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "Lower Level-South Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000073",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "Lower Level-South Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000074",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "Main Floor-South Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000075",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "Main Floor-South Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000076",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "3rd Floor-South Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000077",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "3rd Floor-South Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000078",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "Lower Level-Centre Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000079",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "Lower Level-Centre Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000080",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "Main Floor-Centre Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000081",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "Main Floor-Centre Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000082",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "Lower Level-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000083",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "Lower Level-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000084",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "Main Floor-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000085",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "Main Floor-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000086",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "3rd Floor-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000087",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "3rd Floor-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000088",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Male Washroom",
+    "location_details": "4th Floor-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000089",
+    "site_id": "crem-site:0008",
+    "washroom_info": "Female Washroom",
+    "location_details": "4th Floor-North Block",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000090",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Male Washroom",
+    "location_details": "Lower Level-Public Washroom",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000091",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Female Washroom",
+    "location_details": "Lower Level-Public Washroom",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000092",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Lower Level-Children's Services Client",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000093",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Universal Washroom",
+    "location_details": "Main Floor-Behind Corporate Security Office",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000094",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Male Washroom",
+    "location_details": "Main Floor-Behind Courtroom W3",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000095",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Female Washroom",
+    "location_details": "Main Floor-Behind Courtroom W3",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000096",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Universal Washroom",
+    "location_details": "2nd Floor-Near Elevator",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000097",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Male Washroom",
+    "location_details": "2nd Floor-Near Elevator",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000098",
+    "site_id": "crem-site:0009",
+    "washroom_info": "Female Washroom",
+    "location_details": "2nd Floor-Near Elevator",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-5:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000099",
+    "site_id": "crem-site:0010",
+    "washroom_info": "Accessible Male Washroom",
+    "location_details": "Ground Floor-By the Committee Rooms",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000100",
+    "site_id": "crem-site:0010",
+    "washroom_info": "Accessible Female Washroom",
+    "location_details": "Ground Floor-By the Committee Rooms",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:00am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000101",
+    "site_id": "crem-site:0010",
+    "washroom_info": "Male Washroom",
+    "location_details": "Basement Level by TDSB Storage Room",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000102",
+    "site_id": "crem-site:0010",
+    "washroom_info": "Female Washroom",
+    "location_details": "Basement Level by TDSB Storage Room",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000103",
+    "site_id": "crem-site:0010",
+    "washroom_info": "Male Washroom",
+    "location_details": "Linkway",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000104",
+    "site_id": "crem-site:0010",
+    "washroom_info": "Female Washroom",
+    "location_details": "Linkway",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000105",
+    "site_id": "crem-site:0011",
+    "washroom_info": "Male Washroom",
+    "location_details": "Ground floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000106",
+    "site_id": "crem-site:0011",
+    "washroom_info": "Female Washroom",
+    "location_details": "Ground floor",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000107",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Male Washroom",
+    "location_details": "3rd Floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000108",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Female Washroom",
+    "location_details": "3rd Floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000109",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Universal Washroom",
+    "location_details": "3rd Floor-North side",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000110",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Male Washroom",
+    "location_details": "2nd  floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000111",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Female Washroom",
+    "location_details": "2nd  floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000112",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Universal Washroom",
+    "location_details": "2nd  floor-North side",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000113",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Male Washroom",
+    "location_details": "2nd  floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000114",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Female Washroom",
+    "location_details": "2nd  floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat 10:00am-6:00pm, Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000115",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Male Washroom",
+    "location_details": "1st floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000116",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Female Washroom",
+    "location_details": "1st floor-North side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000117",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Universal Washroom",
+    "location_details": "1st floor-North side",
+    "accessible_washroom": "Yes",
+    "gender_inclusive": "Yes",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000118",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Male Washroom",
+    "location_details": "1st floor-South side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  },
+  {
+    "record_id": "crem:000119",
+    "site_id": "crem-site:0012",
+    "washroom_info": "Female Washroom",
+    "location_details": "1st floor-South side",
+    "accessible_washroom": "No",
+    "gender_inclusive": "No",
+    "hours_available": "Mon-Fri 8:30am-6:00pm, Sat-Sun Closed",
+    "washroom_status": "Open - Public Access"
+  }
+]

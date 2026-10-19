@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary and backup files
+*.bak
+*.backup.*
+*pre-*.tsx
+*backup*.tsx
+
+# Large source datasets retained locally
+/data/raw/
+
+# Intermediate generated files
+/data/derived/
