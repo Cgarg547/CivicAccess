@@ -4,3 +4,4 @@ crem_washrooms,data/raw/CREM Public Washrooms - 4326.geojson,71531,63906781c921f
 neighbourhood_boundaries,data/raw/neighbourhoods/Neighbourhoods - 4326.geojson,2141269,b0cb58077f5b3a47e0e56a68913c6980cfaf39d37d7d020fd91b60650c480233,,,,provenance_pending
 population_profiles,data/raw/neighbourhoods/neighbourhood-profiles-2021-158-model.xlsx,1763175,9a3c372907e9de09407d847398703146a9cfc0f5b2217446fd61ab8ab35345eb,,,,provenance_pending
 pedestrian_network,data/raw/pedestrians/Pedestrian Network Data - 4326.geojson,36736103,49f082913cfb3d0a766dd4036d17e623e2303e65515866e7744084e4a749c8fd,,,,provenance_pending
+green_spaces,data/raw/Green Spaces - 4326.geojson,21327760,ffa1d410db63c5e76f6eddff8f2b38c48c9e3e5f5fef453bbfcee29377df9abe,https://open.toronto.ca/dataset/green-spaces/,,Open Government Licence – Toronto,source_identified_date_pending
