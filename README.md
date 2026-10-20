@@ -6,7 +6,7 @@ CivicAccess is an interactive, open-data-driven web application that helps peopl
 
 Built with **Next.js, TypeScript, MapLibre GL JS, Python, and Toronto Open Data**, the project combines geospatial data processing with an interactive mapping dashboard.
 
-**[Explore the source code](https://github.com/Cgarg547/CivicAccess)**
+**[Live Website](https://civic-access-ten.vercel.app)** | **[Source Code](https://github.com/Cgarg547/CivicAccess)**
 
 > **Project status:** Interactive prototype. Facility information is derived from published datasets and has not been independently verified in the field.
 
@@ -79,7 +79,44 @@ Explore how adding hypothetical candidate sites would change a selected neighbou
 
 **Important:** Scenarios are mathematical illustrations, not recommendations for specific construction locations. They do not establish site feasibility, walking accessibility, operating costs, or actual service improvements.
 
-### 4. Data Methodology and Transparency
+### 5. Parks & Washrooms Explorer
+
+Explore Toronto park boundaries alongside recorded public washroom candidate sites.
+
+- View 1,628 park features on an interactive map
+- Select parks to inspect their recorded washroom proximity information
+- Examine the number of candidate sites associated with each park
+- Explore the estimated distance to the nearest recorded candidate site
+- Compare park-level infrastructure patterns across Toronto
+
+Park proximity is a geographic indicator, not a verified walking route,
+guarantee of public access, or confirmation that a washroom is operating.
+
+### Park Proximity Methodology
+
+CivicAccess analyzes 1,628 unique park features selected from
+Toronto's Green Spaces dataset using AREA_CLASS = "Park"
+and unique AREA_ID values.
+
+For each park:
+
+- park_area_ha records the park area in hectares.
+- internal_candidate_count counts candidate washroom points
+  inside or on the park boundary.
+- nearest_site_distance_m measures the shortest straight-line
+  distance from the park polygon to a recorded candidate site.
+
+Distances use EPSG:26917 and are expressed in metres.
+
+These are not walking distances or walking times. Recorded
+candidate sites are not guaranteed to be open or accessible.
+
+All 1,628 parks passed independent distance and internal-site
+count validation against 367 candidate sites.
+
+Validation script: scripts/validate_park_proximity.py
+
+### Data Methodology and Transparency
 
 CivicAccess distinguishes between:
 

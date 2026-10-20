@@ -388,6 +388,72 @@ export default function AboutPage() {
           </p>
         </section>
 
+
+        <section className="mt-12 rounded-2xl border border-slate-200 bg-white p-7">
+          <h2 className="text-2xl font-bold">
+            Parks &amp; Washrooms methodology
+          </h2>
+
+          <p className="mt-4 leading-relaxed text-slate-600">
+            CivicAccess examines 1,628 unique park features from
+            Toronto&apos;s Green Spaces dataset. Parks are selected
+            using the source classification AREA_CLASS = Park and
+            unique AREA_ID identifiers.
+          </p>
+
+          <p className="mt-3 leading-relaxed text-slate-600">
+            These parks are compared with 367 recorded candidate
+            public washroom sites from the included datasets.
+          </p>
+
+          <h3 className="mt-6 text-lg font-semibold">
+            How park proximity is calculated
+          </h3>
+
+          <ul className="mt-3 list-disc space-y-3 pl-5 leading-relaxed text-slate-600">
+            <li>
+              Park area is recorded in hectares.
+            </li>
+            <li>
+              Internal candidate counts include recorded washroom
+              points inside or on each park boundary.
+            </li>
+            <li>
+              Nearest-site distance is the shortest straight-line
+              distance between the park polygon and any recorded
+              candidate washroom point.
+            </li>
+            <li>
+              Geographic distances are calculated in metres using
+              the EPSG:26917 projected coordinate system.
+            </li>
+          </ul>
+
+          <h3 className="mt-6 text-lg font-semibold">
+            Independent validation
+          </h3>
+
+          <p className="mt-3 leading-relaxed text-slate-600">
+            All 1,628 parks were checked against the 367 candidate
+            sites. The validation reproduced every recorded
+            nearest-site distance within 0.01 metres and every
+            internal candidate count without a mismatch.
+          </p>
+
+          <p className="mt-3 text-sm leading-relaxed text-slate-500">
+            This validation confirms consistency with the
+            processed candidate-site dataset. It does not
+            independently verify facility locations, operating
+            conditions, or public accessibility.
+          </p>
+
+          <p className="mt-3 font-medium leading-relaxed text-slate-800">
+            Park proximity is not walking distance or travel time.
+            A nearby recorded site is not necessarily open,
+            reachable, accessible, or available to the public.
+          </p>
+        </section>
+
         <section className="mt-12 rounded-2xl border border-amber-200 bg-amber-50 p-7">
           <h2 className="text-xl font-bold text-amber-950">
             Important limitations
