@@ -36,6 +36,7 @@ Explore recorded public washroom sites across Toronto.
 - Filter by source dataset
 - Filter by reported accessibility evidence
 - Inspect facility information and available source attributes
+- View published Parks maintenance notices when included in the source data, with the reported reason, posting date, and original comments
 - View detailed records for facilities in the CREM dataset
 
 ### 2. Neighbourhood Coverage Explorer
@@ -51,7 +52,21 @@ Compare recorded washroom coverage across Toronto's 158 neighbourhoods.
 
 The application reports sites per 10,000 residents to help compare neighbourhoods with different population sizes.
 
-### 3. Hypothetical Scenario Planner
+### 3. Walking Accessibility Explorer
+
+Explore estimated walking-network coverage around recorded public washroom candidate sites across Toronto.
+
+- Switch between 5-, 10-, and 15-minute walking thresholds
+- Explore neighbourhood-level coverage on an interactive map
+- Compare the percentage and length of mapped pedestrian networks within each threshold
+- Examine differences in estimated network reach across Toronto's 158 neighbourhoods
+- Interpret results using clearly stated assumptions and limitations
+
+The analysis assumes a walking speed of **80 metres per minute** and measures the proportion of **mapped pedestrian-network length** within each travel threshold.
+
+**Important:** These estimates do not represent the percentage of residents who can reach a washroom. They do not verify sidewalk continuity, safe crossings, barrier-free routes, facility opening hours, or actual washroom availability.
+
+### 4. Hypothetical Scenario Planner
 
 Explore how adding hypothetical candidate sites would change a selected neighbourhood's coverage metrics.
 
@@ -79,8 +94,10 @@ These distinctions are essential for responsible interpretation of the results.
 
 | Metric | Value |
 |---|---:|
-| Recorded candidate sites | 366 |
-| Underlying washroom records | 473 |
+| Recorded candidate sites | 367 |
+| Parks candidate sites | 355 |
+| CREM building-level candidate sites | 12 |
+| Underlying washroom records | 474 |
 | Toronto neighbourhoods analyzed | 158 |
 | Neighbourhoods with zero recorded candidate sites in the included datasets | 26 |
 | CREM individual washroom records | 119 |
@@ -206,7 +223,10 @@ CivicAccess uses a reproducible analytical workflow:
 6. **Summarize accessibility evidence** — preserve published indicators and distinguish missing information from confirmed attributes.
 7. **Calculate neighbourhood coverage** — spatially assign candidate sites to neighbourhood boundaries.
 8. **Join population estimates** — calculate sites per 10,000 residents.
-9. **Prepare frontend datasets** — export compact files for interactive mapping.
+9. **Build pedestrian-network representations** — prepare mapped network connections for exploratory walking-distance analysis.
+10. **Estimate walking-network coverage** — calculate the mapped network length within 5-, 10-, and 15-minute thresholds of recorded candidate sites.
+11. **Validate network results** — inspect site snapping, network components, and neighbourhood-level length allocation.
+12. **Prepare frontend datasets** — export compact files for interactive mapping.
 
 ### Coverage Calculation
 
@@ -227,11 +247,11 @@ The analysis uses recorded candidate washroom sites, mapped pedestrian-network d
 
 | Walking threshold | Covered network length | Citywide coverage |
 |---|---:|---:|
-| 5 minutes | 906.58 km | 11.30% |
-| 10 minutes | 3,168.15 km | 39.48% |
-| 15 minutes | 5,290.33 km | 65.93% |
+| 5 minutes | 909.48 km | 11.33% |
+| 10 minutes | 3,179.99 km | 39.63% |
+| 15 minutes | 5,315.63 km | 66.25% |
 
-The total mapped network length is approximately **8,024.01 km**.
+The total mapped network length is approximately **8,024.02 km**.
 
 For each neighbourhood:
 
@@ -267,7 +287,7 @@ These calculations describe neighbourhood-level site counts. They are not measur
 
 CivicAccess is a decision-support and exploration prototype, not an authoritative directory of currently available washrooms.
 
-- **Operating status:** A recorded site is not necessarily open or available at the time of use.
+- **Operating status:** A recorded site is not necessarily open or available at the time of use. Published maintenance notices may describe an issue with a particular fixture or washroom component; they do not necessarily indicate that an entire facility is closed. Notices are historical source records and may no longer describe current conditions.
 - **Accessibility:** Missing accessibility information does not mean a facility is inaccessible. Published attributes have not been independently audited.
 - **Individual records:** Accessibility information for one washroom within a building should not be assumed to describe every washroom in that building.
 - **Coverage:** A neighbourhood with zero recorded candidate sites is not necessarily a neighbourhood with no public washrooms.
