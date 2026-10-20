@@ -72,3 +72,20 @@ The generated source manifests provide local file fingerprints.
 Original raw files are retained unchanged.
 
 Do not interpret an unverified field as confirmed provenance.
+
+## CREM status-value validation
+
+Local inspection of `data/raw/CREM Public Washrooms - 4326.geojson`
+confirmed 119 records and two non-empty status values:
+
+- `Open - Public Access`: 117 records.
+- `Open - Public Access to VIA Passengers only`: 2 records.
+
+Both values match the exact status strings used by
+`scripts/build_accessibility_summary.py`. No unexpected non-empty
+status values were found in this source snapshot.
+
+This validates the local status vocabulary and its compatibility
+with the summary logic. It does not verify current facility operation,
+unrestricted public access, or the original dataset's publisher,
+download date, or licence.
