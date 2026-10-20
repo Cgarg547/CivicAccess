@@ -231,6 +231,43 @@ npx tsx src/lib/scenarioPlanner.test.ts
 npx tsc --noEmit
 ```
 
+## Technical Validation and Reproducibility
+
+CivicAccess includes documented checks for data integrity, geographic
+assignments, park proximity, pedestrian-network connectivity, and
+walking-network coverage calculations.
+
+Technical documentation:
+
+- [Technical Validation and Reproducibility Report](docs/technical_validation_report.md)
+- [Airport Tunnel Network Limitation](docs/airport_tunnel_network_limitation.md)
+
+### Reproduce the Frontend Checks
+
+From the repository root:
+
+```bash
+cd frontend
+npm ci
+npx tsx src/lib/scenarioPlanner.test.ts
+npx tsc --noEmit
+npm run build
+```
+
+These commands validate the frontend and scenario-planning code. They
+do not independently reproduce the complete geospatial analysis.
+
+### Reproduce the Geospatial Analysis
+
+The original source datasets are excluded from Git. Reproducing the
+full analysis requires obtaining the appropriate source files,
+installing the relevant Python dependencies, and running the applicable
+processing and validation scripts in their documented order.
+
+Published output validation demonstrates consistency with the tested
+inputs and methods; it does not establish field-verified washroom
+availability, accessible pedestrian routes, or tunnel connectivity.
+
 ## Data Sources
 
 The project uses published City of Toronto datasets, including:
@@ -288,7 +325,7 @@ The analysis uses recorded candidate washroom sites, mapped pedestrian-network d
 | 10 minutes | 3,179.99 km | 39.63% |
 | 15 minutes | 5,315.63 km | 66.25% |
 
-The total mapped network length is approximately **8,024.02 km**.
+The total mapped network length is approximately **8,024.01 km**.
 
 For each neighbourhood:
 
