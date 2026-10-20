@@ -37,3 +37,6 @@ npm-debug.log*
 
 # Intermediate generated files
 /data/derived/
+
+# Local park proximity processing and precision experiments
+/data/processed/parks/
