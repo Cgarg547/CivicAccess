@@ -188,7 +188,7 @@ The project uses published City of Toronto datasets, including:
 | Toronto Neighbourhoods | Geographic boundaries for neighbourhood analysis |
 | 2021 Neighbourhood Profiles | Census-based population estimates |
 
-The broader local data workspace also contains pedestrian-network and sidewalk datasets for potential future network-based accessibility analysis.
+CivicAccess also uses Toronto pedestrian-network data for preliminary 5-, 10-, and 15-minute walking-network coverage analysis. The resulting percentages measure mapped network length near recorded candidate sites, not population coverage or verified accessible routes.
 
 **Data provenance:** Source-file metadata and processing outputs are available in `data/processed/`. Raw source downloads are not included in the GitHub repository.
 
@@ -219,6 +219,34 @@ For a neighbourhood with a positive population estimate:
 \times 10,000
 \]
 
+### Walking Accessibility Methodology
+
+CivicAccess includes preliminary walking-network coverage estimates for Toronto's 158 neighbourhoods.
+
+The analysis uses recorded candidate washroom sites, mapped pedestrian-network data, and an assumed walking speed of **80 metres per minute**.
+
+| Walking threshold | Covered network length | Citywide coverage |
+|---|---:|---:|
+| 5 minutes | 906.58 km | 11.30% |
+| 10 minutes | 3,168.15 km | 39.48% |
+| 15 minutes | 5,290.33 km | 65.93% |
+
+The total mapped network length is approximately **8,024.01 km**.
+
+For each neighbourhood:
+
+**Network-length coverage (%) = (Mapped network length within the walking threshold / Total mapped neighbourhood network length) × 100**
+
+Citywide percentages are calculated from total network lengths, not by averaging neighbourhood percentages.
+
+**Important limitations:**
+
+- These percentages represent mapped network length, not the percentage of residents with access.
+- The analysis uses preliminary network distances, not verified pedestrian travel times.
+- Sidewalk continuity, crossings, barriers, and wheelchair accessibility have not been independently validated.
+- Candidate washroom operating status and availability have not been independently verified.
+- Results are intended for exploratory infrastructure planning, not navigation or guaranteed facility access.
+
 ### Scenario Calculation
 
 For a selected neighbourhood:
@@ -244,7 +272,7 @@ CivicAccess is a decision-support and exploration prototype, not an authoritativ
 - **Individual records:** Accessibility information for one washroom within a building should not be assumed to describe every washroom in that building.
 - **Coverage:** A neighbourhood with zero recorded candidate sites is not necessarily a neighbourhood with no public washrooms.
 - **Population:** Rates use 2021 census-based estimates and may not reflect current population levels or visitor demand.
-- **Geographic access:** Neighbourhood site counts do not account for pedestrian routes, barriers, opening hours, or travel distance.
+- **Geographic access:** Site-count coverage does not measure walking accessibility. The separate preliminary walking-network model estimates network-length coverage, but does not verify sidewalks, crossings, barrier-free routes, operating hours, or actual facility availability.
 - **Scenario planning:** Hypothetical additions do not identify suitable parcels, establish feasibility, or predict actual usage.
 
 Users should verify facility details with official sources before relying on them for a trip.
@@ -253,8 +281,8 @@ Users should verify facility details with official sources before relying on the
 
 Potential improvements include:
 
-- Pedestrian-network-based walking accessibility analysis
-- Walkable service-area visualization
+- Improved validation of pedestrian connections, crossings, and barriers
+- More detailed walkable service-area visualization
 - Evidence-based infrastructure priority indicators
 - Candidate-location feasibility screening
 - Additional accessibility and data-confidence indicators

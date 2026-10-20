@@ -1,0 +1,367 @@
+site_id,site_name,source,distance_to_nearest_node_m,nearest_node_lon,nearest_node_lat,snap_review_flag
+parks-site:29443,Harbour Square Park Lands Fieldhouse Washroom,parks,85.89,-79.3765179269874,43.6406642282339,within_100m
+parks-site:37104,Woodbine Bathing Station Washroom,parks,30.25,-79.3078670947211,43.6630160529093,within_100m
+parks-site:32922,Jonathan Ashbridge Park Fieldhouse Washroom,parks,11.75,-79.3198710467847,43.664669530297,within_100m
+parks-site:29661,Thomson Memorial Park South Washroom,parks,9.72,-79.2553117283676,43.7576601668808,within_100m
+parks-site:29580,Morningside Park West Parking Lot Washroom,parks,39.96,-79.2016598474378,43.7779566681217,within_100m
+parks-site:29705,Toronto Islands - Olympic Island Park Washroom,parks,24.75,-79.3738189372373,43.6230962306085,within_100m
+parks-site:29440,Toronto Islands - Hanlan's Point Picnic Area Washroom,parks,148.47,-79.3897784922457,43.6257693966215,review
+parks-site:29441,Toronto Islands - Gibraltar Point Washroom,parks,13.41,-79.3888881460345,43.612241440714,within_100m
+parks-site:29407,Etienne Brule Park Washroom,parks,23.02,-79.4928873272423,43.6526149419116,within_100m
+parks-site:32745,Wilket Creek Park Washroom,parks,11.15,-79.3528861348906,43.7213551329761,within_100m
+parks-site:13599,Major Abbas Ali Park Washroom,parks,51.64,-79.2304932477273,43.8033615036514,within_100m
+parks-site:5445,Maryvale Park Outdoor Pool  Washroom,parks,29.9,-79.3068703220089,43.752963169615,within_100m
+parks-site:29527,Home Smith Park Washroom,parks,57.0,-79.5006177556956,43.6586914618358,within_100m
+parks-site:29745,Willowdale Park North York Tennis Club Washroom,parks,22.67,-79.4080962097145,43.7660007902499,within_100m
+parks-site:13482,Eglinton Flats Southeast Sports Pavilion Washroom,parks,9.14,-79.4947113331527,43.6841472949267,within_100m
+parks-site:6105,Smythe Park Outdoor Pool Washroom,parks,25.51,-79.4974211580855,43.6750017819376,within_100m
+parks-site:29356,Dentonia Park Washroom,parks,10.44,-79.2928648602583,43.694039255862,within_100m
+parks-site:79344,Grange Park North Washroom,parks,51.91,-79.3915091032046,43.6522122684493,within_100m
+parks-site:29347,Corvette Park Washroom,parks,58.75,-79.2594875504304,43.7264561639216,within_100m
+parks-site:29374,Dovercourt Park Washroom,parks,10.47,-79.4326377327511,43.6655051742804,within_100m
+parks-site:29542,James Gardens Washroom,parks,26.9,-79.5145936848941,43.6718077674732,within_100m
+parks-site:29561,Lithuania Park Washroom,parks,11.59,-79.4639341092535,43.6589361016251,within_100m
+parks-site:13591,Marie Curtis Park Beach Washroom,parks,28.33,-79.5417006387827,43.5855813522871,within_100m
+parks-site:29656,Taylor Creek Park Washroom,parks,38.17,-79.298557145244,43.696965567103,within_100m
+parks-site:29502,High Park Children's Garden Washroom,parks,33.83,-79.4617156358005,43.6415769387937,within_100m
+parks-site:79459,Don Valley Brick Works Washroom,parks,59.96,-79.3670550691416,43.6840939345626,within_100m
+parks-site:29459,High Park Chess House Washroom,parks,56.04,-79.4665468001729,43.6531832587073,within_100m
+parks-site:29598,Port Union Village Common Park Washroom,parks,9.99,-79.1347136272147,43.7766466093342,within_100m
+parks-site:13677,Topham Park Community Centre and Clubhouse Washroom,parks,38.96,-79.3070951419305,43.7111068582443,within_100m
+parks-site:29383,Dunlop Park Washroom,parks,56.34,-79.2669638681497,43.7133206836947,within_100m
+parks-site:14102,Toronto Islands - Hanlan's Point Ferry Dock Washroom,parks,22.08,-79.3895575110127,43.6274229112024,within_100m
+parks-site:32743,McCleary Park Washroom,parks,48.98,-79.340898470753,43.6537992187825,within_100m
+parks-site:66883,Amos Waites Park Washroom,parks,22.3,-79.4874639848307,43.6130156460361,within_100m
+parks-site:29462,High Park Colborne Lodge Coach House  Washroom,parks,39.36,-79.4600744362143,43.6403037088152,within_100m
+parks-site:36324,Kew Gardens Playground Washroom,parks,49.41,-79.2996330909014,43.6696565217413,within_100m
+parks-site:347,Esther Shiner Stadium Washroom,parks,54.03,-79.44601276966,43.7763223548329,within_100m
+parks-site:1981,Sunnybrook Park Washroom,parks,63.87,-79.3629041185743,43.7234962203143,within_100m
+parks-site:29384,E.T. Seton Park Washroom,parks,34.7,-79.3373868047506,43.7091145311429,within_100m
+parks-site:28901,Sherbourne Common Outdoor Rink Washroom,parks,62.57,-79.3652981995955,43.6445005992668,within_100m
+parks-site:29300,Bluffer's Park East Washroom,parks,36.7,-79.2274803399047,43.7133594033541,within_100m
+parks-site:5635,High Park Outdoor Pool / Rink Building Washroom,parks,28.62,-79.4659487346585,43.6492834499845,within_100m
+parks-site:29286,Bickford Park Washroom,parks,7.82,-79.4180169660252,43.6604324592591,within_100m
+parks-site:79231,Bellevue Square Park Washroom,parks,37.82,-79.4018382238198,43.6538703291216,within_100m
+parks-site:29280,Bellbury Park Tennis Club Washroom,parks,18.5,-79.36099572744,43.7846318222211,within_100m
+parks-site:29566,Lytton Park Tennis Clubhouse Washroom,parks,52.73,-79.4100938888541,43.7152616574295,within_100m
+parks-site:29581,Morse Street Playground Washroom,parks,106.56,-79.3404881514982,43.6557176723536,review
+parks-site:75662,Summerlea Park North Parking Lot Washroom,parks,23.45,-79.5497589683956,43.7300978084005,within_100m
+parks-site:36503,Serena Gundy Park Washroom,parks,10.78,-79.3569844924416,43.7185366781633,within_100m
+parks-site:29589,Northwood Park Washroom,parks,53.22,-79.4974049302528,43.7479145914304,within_100m
+parks-site:29375,Downsview Dells Park North Washroom,parks,59.66,-79.5015419757027,43.736313923951,within_100m
+parks-site:29415,Fred Hamilton Playground Washroom,parks,8.32,-79.4204984113519,43.652728020272,within_100m
+parks-site:29614,Riverdale Park West Washroom,parks,14.89,-79.3593934513496,43.6654166474706,within_100m
+parks-site:29685,Toronto Islands - Toronto Island Park Avenue of the Islands Washroom,parks,51.19,-79.376680704534,43.6206507191803,within_100m
+parks-site:29307,Bluffer's Park Washroom,parks,16.83,-79.2350432755068,43.7060345211695,within_100m
+parks-site:36974,Corktown Common Pavilion Washroom,parks,13.05,-79.3524533553556,43.6535452791841,within_100m
+parks-site:32744,Pantry Park Fieldhouse Washroom,parks,29.58,-79.3021899576925,43.6666002433873,within_100m
+parks-site:29570,Marie Curtis Park Playground Washroom,parks,21.92,-79.5427842993139,43.587735856863,within_100m
+parks-site:29442,Toronto Islands – Hanlan’s Point Mid-Hanlan’s Washroom,parks,13.31,-79.3910016054266,43.6192203102404,within_100m
+parks-site:32882,Silverbirch Boat House Washroom,parks,19.44,-79.2845992497959,43.6704762605264,within_100m
+parks-site:29404,Eringate Park Washroom,parks,47.86,-79.5819720565891,43.6620238686952,within_100m
+parks-site:29634,Seven Oaks Park Washroom,parks,100.8,-79.2095774765398,43.788776411136,review
+parks-site:29556,Leslie Grove Park Washroom,parks,15.48,-79.3334865810165,43.6626133493895,within_100m
+parks-site:57282,Sorauren Avenue Park Fieldhouse Washroom,parks,8.06,-79.4431338992752,43.6481092769323,within_100m
+parks-site:79226,Jean Sibelius Square Fieldhouse Washroom,parks,21.8,-79.4094547998161,43.6717118100488,within_100m
+parks-site:37108,Cherry Beach Clarke Beach Park Washroom,parks,71.36,-79.344119601131,43.6375095527454,within_100m
+parks-site:45442,Colonel Danforth Park Washroom,parks,16.84,-79.1648061842267,43.7770354130942,within_100m
+parks-site:46142,Cherry Beach Sports Fields Washroom,parks,90.52,-79.342578094809,43.6408098387214,within_100m
+parks-site:101976,Tommy Thompson Park Washroom,parks,16.24,-79.3223125291196,43.6516154934709,within_100m
+parks-site:97106,David A. Balfour Park Washroom,parks,26.82,-79.3874006881942,43.6871097554119,within_100m
+parks-site:79343,Grange Park South Washroom,parks,41.3,-79.3915091032046,43.6522122684493,within_100m
+parks-site:29298,Blantyre Park Fieldhouse Washroom,parks,48.63,-79.2817104044908,43.6821514117319,within_100m
+parks-site:29579,Morningside Park Central Picnic Site Washroom,parks,148.59,-79.196822032748,43.7765064170843,review
+parks-site:29616,Rosedale Park Tennis Clubhouse Washroom,parks,69.25,-79.379594833497,43.6838528237967,within_100m
+parks-site:29606,Ramsden Park Washroom,parks,11.69,-79.3950627350684,43.6761279483101,within_100m
+parks-site:971579,Trinity Bellwoods Playground Washroom,parks,27.72,-79.4144293621813,43.6466997379837,within_100m
+parks-site:1846,Leaside Outdoor Pool Washroom,parks,53.35,-79.3504423929758,43.7026496515652,within_100m
+parks-site:29332,Elie Wiesel Park Washroom,parks,26.01,-79.4374598902069,43.746169621165,within_100m
+parks-site:29746,Wishing Well Park Fieldhouse Washroom,parks,102.48,-79.3176144900524,43.7706325802124,review
+parks-site:36482,Christie Pits Park Washroom,parks,20.89,-79.4205309669652,43.6646848211419,within_100m
+parks-site:36442,Humber Bay Park West Washroom,parks,8.09,-79.4804315079949,43.6194962536466,within_100m
+parks-site:41662,Glamorgan Park Washroom,parks,44.37,-79.2875560363439,43.7724925279768,within_100m
+parks-site:29711,Toronto Islands - Ward’s Island Firehall Washroom,parks,73.62,-79.3589925604486,43.6257454795664,within_100m
+parks-site:13481,Eglinton Flats Northwest Service Building Washroom,parks,113.28,-79.5044855515489,43.6854655976602,review
+parks-site:989457,Scarborough Arena Gardens Washroom,parks,95.11,-79.2630587053781,43.695002230502,within_100m
+parks-site:1001027,Old Fire Hall 30 Community Centre Washroom,parks,61.0,-79.3502640501536,43.6463685281942,within_100m
+parks-site:101973,Centennial Park Etobicoke Picnic Site 6 Washroom,parks,13.68,-79.5901278749616,43.6521785515408,within_100m
+parks-site:34605,Toronto Islands - Ward's Island Baseball Diamond Washroom,parks,17.22,-79.3539788482933,43.6313531661064,within_100m
+parks-site:29751,Withrow Park North Washroom,parks,9.46,-79.3476459606151,43.6756313874047,within_100m
+parks-site:29509,High Park Upper Hillside Washroom,parks,38.92,-79.4667841794009,43.6454467375067,within_100m
+parks-site:28882,Alexandra Park / Harry R. Gairey Outdoor Rink Washroom,parks,68.59,-79.4038077260875,43.6516346260801,within_100m
+parks-site:13016,Centennial Park - Rob Ford Stadium Accessible Washrooms,parks,44.54,-79.5850584708431,43.652973412213,within_100m
+parks-site:29411,Fergy Brown Park Washroom,parks,56.23,-79.4974644994478,43.6877203491964,within_100m
+parks-site:29600,Prairie Drive Park Washroom,parks,35.99,-79.2836884610534,43.6974834787999,within_100m
+parks-site:29644,Stanley Park North Toronto Playground Washroom,parks,29.87,-79.4091008244967,43.6429893022505,within_100m
+parks-site:29660,Thomson Memorial Park North Washroom,parks,18.5,-79.2552902318091,43.7590831724987,within_100m
+parks-site:5472,Westgrove Park Outdoor Pool Washroom,parks,92.68,-79.5672648038099,43.6831903742531,within_100m
+parks-site:6324,West Mall Outdoor Pool Washroom,parks,42.83,-79.567223640692,43.642044968661,within_100m
+parks-site:6107,Smithfield Park Outdoor Pool Washroom,parks,39.68,-79.5950764281262,43.7489312880621,within_100m
+parks-site:6157,Rotary Peace Park Outdoor Pool  Washroom,parks,49.24,-79.5075987217467,43.5957489269817,within_100m
+parks-site:6126,Richmond Gardens Outdoor Pool Washroom,parks,38.97,-79.5457745571946,43.6815952291616,within_100m
+parks-site:6191,Pine Point Park Outdoor Pool Washroom,parks,74.45,-79.5439425538089,43.7129432633291,within_100m
+parks-site:6206,Ourland Park Outdoor Pool Washroom,parks,34.98,-79.508252009162,43.6163984712577,within_100m
+parks-site:5404,Monarch Park Outdoor Pool / Rink Washroom,parks,38.28,-79.3261175838312,43.6771826667081,within_100m
+parks-site:5511,Knob Hill Park Outdoor Pool Washroom,parks,48.65,-79.2487065651079,43.7440517214914,within_100m
+parks-site:5675,Greenwood Park Outdoor Pool / Rink Washroom,parks,57.35,-79.3304044276805,43.6696096511829,within_100m
+parks-site:5720,Flagstaff Park Outdoor Pool Washroom,parks,44.54,-79.5919992486172,43.7211953194584,within_100m
+parks-site:5730,Fairhaven Park Outdoor Pool Washroom,parks,18.77,-79.5471291234079,43.7030921741095,within_100m
+parks-site:5745,Eringate Park Outdoor Pool Washroom,parks,13.91,-79.5818817110566,43.6627213214104,within_100m
+parks-site:5976,Amos Waites Park Outdoor Pool Washroom,parks,36.54,-79.4874639848307,43.6130156460361,within_100m
+parks-site:29755,Woburn Avenue Playground Washroom,parks,31.75,-79.4054743882871,43.7273529533857,within_100m
+parks-site:2104,Stan Wadlow Park Washroom,parks,50.58,-79.3147368300059,43.6979747775357,within_100m
+parks-site:29359,Derrydowns Park Washroom,parks,53.79,-79.5055287320017,43.7576545590434,within_100m
+parks-site:32883,Kew Gardens Outdoor Rink Washroom,parks,10.81,-79.2983320257675,43.6665204475601,within_100m
+parks-site:1908,Phil White Arena Washroom,parks,45.77,-79.4310130070699,43.6915483624555,within_100m
+parks-site:29524,Hillcrest Park Washroom,parks,26.26,-79.4242767839771,43.6767736819847,within_100m
+parks-site:29729,Wells Hill Park Washroom,parks,25.49,-79.416420850868,43.6821146110157,within_100m
+parks-site:29388,Earlscourt Park Washroom,parks,11.6,-79.451612832108,43.6740461430879,within_100m
+parks-site:13850,L'Amoreaux Sports Centre Washroom,parks,81.16,-79.3033320667141,43.8032910660673,within_100m
+parks-site:29698,Toronto Islands - Centre Island West Pier Washroom,parks,36.91,-79.3723977100129,43.616990798221,within_100m
+parks-site:29521,Highview Park Washroom,parks,79.62,-79.2581610679919,43.7016179250432,within_100m
+parks-site:1001025,Old Fire Hall 30 Park Washroom,parks,67.1,-79.3502640501536,43.6463685281942,within_100m
+parks-site:59947,Lee Lifeson Art Park Washroom,parks,32.06,-79.4102409672171,43.76890617497,within_100m
+parks-site:29695,Toronto Islands - Centre Island Washroom,parks,18.01,-79.3758989933313,43.6179692175466,within_100m
+parks-site:34993,Centennial Park - Rob Ford Stadium Women's North Washroom,parks,83.62,-79.585895081391,43.6544387744248,within_100m
+parks-site:34992,Centennial Park - Rob Ford Stadium Mens South Washroom,parks,48.92,-79.5850584708431,43.652973412213,within_100m
+parks-site:29265,Adams Park West Fieldhouse Washroom,parks,5.36,-79.146862144219,43.7921313264558,within_100m
+parks-site:60142,McCowan District Park Outdoor Rink Washroom,parks,16.88,-79.2376581660353,43.7345035378803,within_100m
+parks-site:13052,McGregor Park Community Centre Washroom,parks,58.81,-79.2810424676402,43.7475555039857,within_100m
+parks-site:28895,Ramsden Park Outdoor Rink Washroom,parks,45.62,-79.3918179801002,43.6759125014263,within_100m
+parks-site:29622,Rowntree Mills Park Washroom,parks,14.46,-79.5780638747309,43.7522270379728,within_100m
+parks-site:29716,Trinity Bellwoods Park North Baseball Diamond Washroom,parks,14.18,-79.4136834608573,43.6494157350034,within_100m
+parks-site:5984,Alexandra Park Outdoor Pool Washroom,parks,65.83,-79.4037326707172,43.6506676548669,within_100m
+parks-site:31265,Ashbridges Bay Park Washroom,parks,8.56,-79.3089401231386,43.6586623538559,within_100m
+parks-site:29276,Ashtonbee Reservoir Park Washroom,parks,185.99,-79.2922834798665,43.7300213811408,review
+parks-site:29361,Dieppe Park Washroom,parks,11.63,-79.3347753705566,43.6917962023129,within_100m
+parks-site:29343,"Connorvale Park - Steve ""Whitey"" Breitner Clubhouse Washroom",parks,32.0,-79.5300912623412,43.609843602246,within_100m
+parks-site:29385,Earl Bales Park South Washroom,parks,162.71,-79.4271940178743,43.7535049428447,review
+parks-site:29655,Tam O'Shanter Golf Course Washroom,parks,101.13,-79.300534773013,43.7867065413839,review
+parks-site:29590,Norwood Park Washroom,parks,34.35,-79.3023542205195,43.6820960943241,within_100m
+parks-site:36492,Hinder Area Washroom,parks,38.18,-79.4356243671642,43.7599867112646,within_100m
+parks-site:6296,Mel Lastman Square Washroom,parks,69.82,-79.4137528317601,43.7677909781175,within_100m
+parks-site:36488,East Don Parkland Washroom,parks,35.9,-79.3656457241094,43.7723339706024,within_100m
+parks-site:74844,Humberline Park Washroom,parks,25.03,-79.6158564445194,43.7317466555603,within_100m
+parks-site:29376,Downsview Dells Park South Washroom,parks,29.31,-79.4962102035879,43.7356409038645,within_100m
+parks-site:5787,Earl Bales Park Barry Zukerman Amphitheatre Washroom,parks,68.38,-79.4332104183175,43.7546387621465,within_100m
+parks-site:32902,Little Norway Park Washroom,parks,7.34,-79.3984746122304,43.6340253996375,within_100m
+parks-site:46102,Sunnyside Park Pavillion West Washroom,parks,26.85,-79.4573738704319,43.6378420627478,within_100m
+parks-site:46103,Sunnyside Park Pavillion East Washroom,parks,28.57,-79.4560599265381,43.6379569449612,within_100m
+parks-site:29547,L'Amoreaux North Park Fieldhouse Washroom,parks,41.84,-79.3039029242281,43.810028164097,within_100m
+parks-site:29309,Bridlewood Park Washroom,parks,23.2,-79.315998855793,43.7833090773858,within_100m
+parks-site:29617,Rosetta McClain Gardens Washroom,parks,13.63,-79.256297713129,43.6967156597919,within_100m
+parks-site:29628,Scarborough Village Park Fieldhouse Washroom,parks,134.36,-79.2113203481097,43.7471056510181,review
+parks-site:29536,Iroquois Park Fieldhouse Washroom,parks,47.91,-79.2677849585817,43.8028959634672,within_100m
+parks-site:29583,Neilson Park Scarborough Washroom,parks,23.12,-79.2244746892264,43.8137847911068,within_100m
+parks-site:1840,Memorial Park Washroom,parks,37.35,-79.4205075242649,43.7048658000499,within_100m
+parks-site:29740,Wexford Park Fieldhouse Washroom,parks,78.39,-79.2981336240736,43.7335203974348,within_100m
+parks-site:29753,Withrow Park South Washroom,parks,50.21,-79.3450870028704,43.673131809628,within_100m
+parks-site:29553,Lawrence Park Ravine Tennis Clubhouse Washroom,parks,32.94,-79.3994291007521,43.7207771379785,within_100m
+parks-site:35368,High Park Sports Field Washroom,parks,33.01,-79.4659487346585,43.6492834499845,within_100m
+parks-site:93642,Sherwood Park Washroom,parks,48.27,-79.3876199414755,43.7173196661948,within_100m
+parks-site:37106,Oriole Park Toronto Washroom,parks,56.49,-79.3991776827643,43.6976257190542,within_100m
+parks-site:30891,G. Ross Lord Park Hidden Trail Washroom,parks,24.56,-79.4556917463793,43.7805532359955,within_100m
+parks-site:29421,Greenwood Park Fieldhouse Washroom,parks,94.12,-79.3275146488758,43.6694849345395,within_100m
+parks-site:29410,Felstead Avenue Playground Washroom,parks,29.06,-79.3302882530957,43.680089824509,within_100m
+parks-site:29596,Perth Square Park Washroom,parks,16.93,-79.452870580759,43.6641136991385,within_100m
+parks-site:29401,Eglinton Flats Northwest Sports Pavilion Washroom,parks,42.06,-79.5041917468005,43.6853365480869,within_100m
+parks-site:32862,Queensway Outdoor Rink Washroom,parks,25.91,-79.5065894442574,43.6263005141609,within_100m
+parks-site:29351,Rennie Park David H. Williams Washroom,parks,33.09,-79.4741773657,43.6442762901747,within_100m
+parks-site:29724,Wanless Park Fieldhouse Washroom,parks,60.11,-79.3913656453594,43.7284317881149,within_100m
+parks-site:971422,Bond Park Washroom,parks,117.62,-79.3528264320634,43.7448776261967,review
+parks-site:29732,West Deane Park Washroom,parks,10.07,-79.55760304505,43.6609207699408,within_100m
+parks-site:29572,Millwood Park Washroom,parks,27.61,-79.5775399771334,43.6316573135058,within_100m
+parks-site:29728,Wellesworth Park Washroom,parks,27.26,-79.5734680403782,43.6571826414674,within_100m
+parks-site:36489,Eglinton Park Washroom,parks,26.87,-79.4052755059035,43.7080821834675,within_100m
+parks-site:29416,George Webster Park Washroom,parks,24.65,-79.3004157117363,43.7004768700886,within_100m
+parks-site:29408,Etobicoke Valley Park Washroom,parks,14.45,-79.5567274744707,43.6042548342347,within_100m
+parks-site:988593,Clydesdale Park Tennis Clubhouse Universal Washroom,parks,6.43,-79.3294143537944,43.783319356385,within_100m
+parks-site:78226,Stanley Greene Park Pavilion Washroom,parks,52.1,-79.4771338446615,43.7337696014988,within_100m
+parks-site:29708,Toronto Islands - Ward's Island Chippewa House Washroom,parks,30.14,-79.3652952894352,43.62101241915,within_100m
+parks-site:29379,Dufferin Grove Sports Field Washroom,parks,49.67,-79.4325522378435,43.6566883253542,within_100m
+parks-site:5459,Donald D. Summerville Olympic Outdoor Pool Washroom,parks,24.76,-79.3050153611074,43.664998008407,within_100m
+parks-site:28899,Rosedale Park Outdoor Rink Washroom,parks,71.2,-79.379594833497,43.6838528237967,within_100m
+parks-site:13688,Viewmount Community Centre Washroom,parks,21.85,-79.4372600362233,43.7072949817941,within_100m
+parks-site:29312,Budapest Park Washroom,parks,63.95,-79.4489774012382,43.6364937810846,within_100m
+parks-site:29689,Toronto Islands - Ferry Dock Washroom,parks,28.43,-79.3794092489299,43.6222333677025,within_100m
+parks-site:13493,G. Ross Lord Park Sport Pavillion Washroom,parks,50.55,-79.4623234731714,43.7796877500473,within_100m
+parks-site:14068,Otter Creek Centre Outdoor Rink Washroom,parks,8.88,-79.4094122406584,43.7212480329644,within_100m
+parks-site:28890,Hodgson Public School Grounds Outdoor Rink Washroom,parks,83.47,-79.3850338042881,43.701684908977,within_100m
+parks-site:29612,Riverdale Park East Fieldhouse Washroom,parks,42.15,-79.3560276886017,43.6677062500063,within_100m
+parks-site:28894,Prince of Wales Outdoor Rink Washroom,parks,23.87,-79.4994977856473,43.5989223228491,within_100m
+parks-site:28891,Humber Valley Outdoor Rink Washroom,parks,74.07,-79.525028591113,43.6635286023662,within_100m
+parks-site:28902,Sir Adam Beck Park Outdoor Rink Washroom,parks,44.25,-79.5478050575929,43.6027126198099,within_100m
+parks-site:28893,West Deane Park Outdoor Rink Washroom,parks,77.97,-79.5582940327882,43.6640420850522,within_100m
+parks-site:28904,Sunnydale Acres Park Outdoor Rink Washroom,parks,44.41,-79.5776717392891,43.7248160650497,within_100m
+parks-site:29720,Valleyfield Park Outdoor Rink Washroom,parks,38.62,-79.5347439191131,43.6948933791107,within_100m
+parks-site:28907,Wedgewood Park Outdoor Rink Washroom,parks,87.9,-79.5475369319182,43.6453259487071,within_100m
+parks-site:2006,Trinity Community Recreation Centre Washroom,parks,46.07,-79.4143301467575,43.6463679453004,within_100m
+parks-site:29641,Sir Winston Churchill Park Washroom,parks,12.85,-79.408532067285,43.6842221141635,within_100m
+parks-site:6171,Riverdale Park East Outdoor Rink / Pool Washroom,parks,61.81,-79.3575453785784,43.6729218468706,within_100m
+parks-site:58062,Jack Layton Ferry Terminal Washroom,parks,101.39,-79.3765179269874,43.6406642282339,review
+parks-site:28910,Westway Outdoor Rink Washroom,parks,41.4,-79.5426315522465,43.6885427616591,within_100m
+parks-site:28908,West Mall Outdoor Rink Washroom,parks,79.84,-79.5661345581739,43.6422502861484,within_100m
+parks-site:28900,Royal Crest Park Outdoor Rink Washroom,parks,34.55,-79.6043111887715,43.7527414081079,within_100m
+parks-site:29631,Scarlett Woods Golf Course Washroom,parks,123.47,-79.4989934041047,43.6842765455999,review
+parks-site:5932,Blantyre Park Outdoor Pool Washroom,parks,50.45,-79.2808880879805,43.6840099224253,within_100m
+parks-site:988554,East Bayfront Community Recreation Centre Washroom,parks,32.82,-79.36158090753,43.6464404450894,within_100m
+parks-site:5555,West Deane Park Outdoor Pool Washroom,parks,35.52,-79.5615970162797,43.6604326419776,within_100m
+parks-site:5465,Westmount Park Outdoor Pool Washroom,parks,9.89,-79.5188136968131,43.6872565311771,within_100m
+parks-site:5470,Weston Lions Park Outdoor Pool Washroom,parks,25.23,-79.5185679085141,43.6978708709587,within_100m
+parks-site:103143,Ethennonnhawahstihnen Park Outdoor Rink Washroom,parks,47.66,-79.3716343244422,43.7680156467011,within_100m
+parks-site:1866,Matty Eckler Recreation Centre Washroom,parks,46.77,-79.3393241839903,43.6675274589713,within_100m
+parks-site:13061,Power House Recreation Centre Washroom,parks,11.82,-79.5154823586555,43.5934902706011,within_100m
+parks-site:29567,MacGregor Playground Washroom,parks,9.94,-79.4417182024627,43.6530600324607,within_100m
+parks-site:13008,Banbury Community Centre Washroom,parks,50.18,-79.3690845484121,43.742510534526,within_100m
+parks-site:29354,June Rowlands Park Washroom,parks,86.15,-79.3871312786731,43.7004008153574,within_100m
+parks-site:971308,Rouge Valley Community Recreation Centre Washroom,parks,113.07,-79.1899480216599,43.8043920318745,review
+parks-site:29578,Morningside Park Washroom,parks,75.71,-79.1931856082268,43.7786766667504,within_100m
+parks-site:101974,Centennial Park Etobicoke Picnic Site 1 Washroom,parks,41.17,-79.5866536191925,43.6492077285401,within_100m
+parks-site:29638,Sir Casimir Gzowski Park Fieldhouse Washroom,parks,6.67,-79.4657135649243,43.6350930283376,within_100m
+parks-site:29277,Baird Park Washroom,parks,21.87,-79.4627787673243,43.6621359885266,within_100m
+parks-site:13602,Milliken Park Washroom Building,parks,44.82,-79.2713371751662,43.8302015760978,within_100m
+parks-site:75804,Guild Park and Gardens East Washroom,parks,39.82,-79.191021888159,43.7478589270282,within_100m
+parks-site:1701,Coronation Park Toronto Washroom,parks,50.75,-79.4044812855344,43.6340454106095,within_100m
+parks-site:28885,Campbell Avenue Playground Outdoor Rink Washroom,parks,24.16,-79.4482262284773,43.662878713397,within_100m
+parks-site:2091,Earl Bales Ski and Snowboard Centre Washroom,parks,23.07,-79.4317798043896,43.7527627607158,within_100m
+parks-site:28887,Dieppe Park Outdoor Rink Washroom,parks,59.68,-79.3357254782104,43.692572277005,within_100m
+parks-site:29478,High Park Lower Hillside Washroom,parks,32.04,-79.4673068242662,43.6438476867208,within_100m
+parks-site:2081,Jack Goodlad Community Centre Washroom,parks,14.87,-79.2709274851338,43.7424174483622,within_100m
+parks-site:41663,Woodbine Park Washroom,parks,14.47,-79.3120882422226,43.6647629292694,within_100m
+parks-site:5665,Halbert Park Outdoor Pool Washroom,parks,74.98,-79.2305294494183,43.7282701921933,within_100m
+parks-site:12,Albert Campbell Square Outdoor Rink Washroom,parks,78.75,-79.2587852022899,43.7733259954675,within_100m
+parks-site:273,Dennis R. Timbrell Resource Centre Washroom,parks,41.66,-79.3314634992288,43.7181703903637,within_100m
+parks-site:29511,High Park Parkside Drive Washroom,parks,5.14,-79.4572814538486,43.6444297031362,within_100m
+parks-site:1610,Alderwood Pool Washroom,parks,51.58,-79.5465377029144,43.6015188770201,within_100m
+parks-site:29749,Withrow Park Outdoor Rink Washroom,parks,51.1,-79.3458822021935,43.6749654277127,within_100m
+parks-site:29392,East Point Park Ken Morrish Softball Complex Washroom,parks,142.34,-79.1622829323844,43.7615243222524,review
+parks-site:30923,Moorevale Park Tennis Club Washroom,parks,89.07,-79.3814773664934,43.6941583625308,within_100m
+parks-site:215,Barbara Ann Scott Outdoor Rink Washroom,parks,36.62,-79.3841875090176,43.6594731999079,within_100m
+parks-site:1674,Centennial Park Conservatory Washroom,parks,104.82,-79.5875320219328,43.6502749718814,review
+parks-site:2056,Central Arena Washroom,parks,66.19,-79.5196948975875,43.6480361303269,within_100m
+parks-site:29358,Dentonia Park Golf Course Washroom,parks,128.49,-79.2898291167197,43.6946174751119,review
+parks-site:28888,Dufferin Grove Park Outdoor Rink Washroom,parks,28.78,-79.4339263261601,43.6569504730559,within_100m
+parks-site:29652,Sunnyside Park Outdoor Pool Washroom,parks,29.27,-79.4560599265381,43.6379569449612,within_100m
+parks-site:6091,Stanley Park South Outdoor Pool Washroom,parks,50.19,-79.4083497111924,43.642377329285,within_100m
+parks-site:6201,Park Lawn Park Outdoor Pool / Rink Washroom,parks,83.08,-79.4966846481895,43.6387700738711,within_100m
+parks-site:5491,Lambton - Kingsway Park Outdoor Pool  Washroom,parks,45.02,-79.5078902109624,43.6587524363776,within_100m
+parks-site:5697,Gihon Spring Park Outdoor Pool Washroom,parks,21.25,-79.5951205832791,43.7555175821927,within_100m
+parks-site:13637,Riverdale Farm Meeting House Washroom,parks,66.17,-79.3608168479908,43.667572084722,within_100m
+parks-site:101975,Centennial Park Etobicoke Picnic Site 8 Washroom,parks,17.22,-79.5919031077257,43.6488494161558,within_100m
+parks-site:29405,Esther Lorrie Fieldhouse Washroom,parks,33.53,-79.5811088607728,43.7280883110977,within_100m
+parks-site:29365,Don Valley Golf Course Washroom,parks,54.59,-79.4081101875585,43.7492967149007,within_100m
+parks-site:28897,Regent Park Athletic Grounds Outdoor Rink Washroom,parks,35.14,-79.3595293118279,43.658366117474,within_100m
+parks-site:13499,Giovanni Caboto Outdoor Pool / Rink Washroom,parks,74.93,-79.4517449915326,43.6761695928271,within_100m
+parks-site:32622,Nathan Phillips Square Outdoor Rink Washroom,parks,110.12,-79.3829522207133,43.6528780199028,review
+parks-site:1847,Ledbury Park Outdoor Pool / Rink Washroom,parks,101.75,-79.4263381101626,43.7268802468855,review
+parks-site:6094,Kiwanis Outdoor Pool Washroom,parks,37.92,-79.316260388495,43.6982073725128,within_100m
+parks-site:13388,Alex Duff Memorial Outdoor Pool Washroom,parks,23.48,-79.4219135842286,43.6651348597113,within_100m
+parks-site:500,Horner Avenue Seniors Centre Washroom,parks,60.0,-79.5266134221495,43.6057792665993,within_100m
+parks-site:13045,L'Amoreaux Tennis Centre Washroom,parks,51.55,-79.3049246084494,43.8071630863553,within_100m
+parks-site:13055,North Kipling Community Centre Washroom,parks,96.96,-79.5839787936541,43.7529849226672,within_100m
+parks-site:13639,Riverdale Farm Simpson House Washroom,parks,22.51,-79.3617973380782,43.6669979271086,within_100m
+parks-site:36323,Kew Beach Lawn Bowling Club Washroom,parks,24.11,-79.2971718154506,43.6663781090681,within_100m
+parks-site:2935,Humber Valley Golf Course Washroom,parks,120.98,-79.5457407856829,43.7281542567476,review
+parks-site:45062,York Recreation Centre Washroom,parks,60.38,-79.4825724385397,43.6882512057783,within_100m
+parks-site:2109,West Rouge Community Centre Washroom,parks,35.55,-79.1249011906114,43.7923822062844,within_100m
+parks-site:2108,West Acres Seniors Centre Washroom,parks,69.61,-79.5712533273314,43.7253179250434,within_100m
+parks-site:1095,Wellesley Community Centre Washroom,parks,58.89,-79.3745985420159,43.6671716324352,within_100m
+parks-site:1569,Warden Hilltop Community Centre Washroom,parks,51.0,-79.2808685129784,43.7144724339851,within_100m
+parks-site:2013,Wallace Emerson Community Centre Washroom,parks,12.24,-79.439251789005,43.6672366238651,within_100m
+parks-site:1075,Victoria Village Recreation Centre Washroom,parks,130.25,-79.315898975673,43.7221509739486,review
+parks-site:13073,Trace Manes Park Community Centre Washroom,parks,42.82,-79.3669362421304,43.7058690501363,within_100m
+parks-site:2106,Thistledown Communty Centre Washroom,parks,76.3,-79.5614671487035,43.7352778020073,within_100m
+parks-site:1016,Swansea Community Recreation Centre Washroom,parks,34.14,-79.4773855045728,43.6442073532327,within_100m
+parks-site:14344,Stephen Leacock Seniors Community Centre Washroom,parks,51.42,-79.3013821256915,43.787918067638,within_100m
+parks-site:2105,Stephen Leacock Community Recreation Centre Washroom,parks,48.4,-79.3027933523438,43.7861826517066,within_100m
+parks-site:2103,St. Lawrence Community Recreation Centre Washroom,parks,14.03,-79.3648082141861,43.6496839521279,within_100m
+parks-site:13064,Seneca Village Community Centre Washroom,parks,64.03,-79.3506743508559,43.7936852380622,within_100m
+parks-site:13063,Secord Community Centre Washroom,parks,29.02,-79.3020519452317,43.6920730540699,within_100m
+parks-site:925,Scaroborough Village Recreation Centre Washroom,parks,105.38,-79.2153083429786,43.7400305682419,review
+parks-site:1943,S. H. Armstrong Community Recreation Centre Washroom,parks,63.87,-79.3232015908938,43.6654960388075,within_100m
+parks-site:2099,Roding Community Centre Washroom,parks,40.48,-79.4928791499013,43.7289055281493,within_100m
+parks-site:45463,Regent Park Community Centre Washroom,parks,43.95,-79.3622369722779,43.6582599832413,within_100m
+parks-site:829,Port Union Community Recreation Centre Washroom,parks,53.65,-79.1407557592429,43.7800048906315,within_100m
+parks-site:2097,Pleasantview Community Centre Washroom,parks,30.39,-79.3367051015478,43.7867357694039,within_100m
+parks-site:45042,Parkway Forest Community Centre Washroom,parks,79.2,-79.3445378806989,43.7723354098049,within_100m
+parks-site:14322,Pam McConnell Aquatic Centre Washroom,parks,70.57,-79.360582937541,43.6607172895943,within_100m
+parks-site:13058,Ourland Community Centre Washroom,parks,65.67,-79.5079147079318,43.6155843800697,within_100m
+parks-site:2095,Oriole Community Recreation Centre Washroom,parks,55.07,-79.3519331855749,43.7814417387713,within_100m
+parks-site:2092,O'Connor Community Centre Washroom,parks,63.82,-79.3015253573098,43.7171206856085,within_100m
+parks-site:1439,Oakridge Community Recreation Centre Washroom,parks,42.0,-79.2835667098429,43.6953715107577,within_100m
+parks-site:1892,Oakdale Community Centre Washroom,parks,58.61,-79.5127019620233,43.7475193381824,within_100m
+parks-site:771,Northwood Community Centre Washroom,parks,60.84,-79.5005201091567,43.7450532162565,within_100m
+parks-site:1886,North Toronto Memorial Community Centre Washroom,parks,21.22,-79.4048540564265,43.7060249709726,within_100m
+parks-site:6294,New Toronto Seniors Centre Washroom,parks,28.4,-79.5017230393268,43.6011206518709,within_100m
+parks-site:14343,Mitchell Field Community Centre Washroom,parks,89.09,-79.4097636883605,43.7746244757912,within_100m
+parks-site:1874,Milliken Park Community Recreation Centre Washroom,parks,46.27,-79.2746939107931,43.829604279859,within_100m
+parks-site:1873,Memorial Pool and Health Club Washroom,parks,38.6,-79.5196948975875,43.6480361303269,within_100m
+parks-site:13049,Masaryk-Cowan Community Recreation Centre Washroom,parks,38.31,-79.4329197680156,43.6408859638327,within_100m
+parks-site:1867,Mary McCormick Recreation Centre Washroom,parks,30.29,-79.4327132037563,43.6473457302794,within_100m
+parks-site:13047,Malvern Recreation Centre Washroom,parks,94.76,-79.2158083701871,43.8078327880724,within_100m
+parks-site:2085,Main Square Community Recreation Centre Washroom,parks,115.99,-79.298682817363,43.6865043144108,review
+parks-site:312,Lawrence Heights Community Centre Washroom,parks,48.44,-79.4418016815155,43.7184319908685,within_100m
+parks-site:13866,L'Amoreaux Community Recreation Centre Washroom,parks,82.38,-79.3056994340449,43.8120343203517,within_100m
+parks-site:13041,Ken Cox Community Centre Washroom,parks,78.15,-79.5155781223342,43.5949937517896,within_100m
+parks-site:17168,Keele Community Centre Washroom,parks,62.08,-79.461623996578,43.6582314530143,within_100m
+parks-site:1820,Joseph J. Piccininni Community Recreation Centre Washroom,parks,51.77,-79.4508380953249,43.675179682157,within_100m
+parks-site:1818,John Innes Community Recreation Centre Washroom,parks,39.45,-79.3703560707068,43.6557781849244,within_100m
+parks-site:1817,Jimmie Simpson Recreation Centre Washroom,parks,61.64,-79.346029184005,43.6602527497731,within_100m
+parks-site:2082,Jenner Jean-Marie Community Centre Washroom,parks,43.54,-79.3424342297608,43.7027821125311,within_100m
+parks-site:2079,Heron Park Community Centre Washroom,parks,90.91,-79.1771194910133,43.7680239920219,within_100m
+parks-site:1768,Harrison Pool Washroom,parks,32.3,-79.3908450215241,43.6513789386208,within_100m
+parks-site:1764,Gus Ryder Pool and Health Club Washroom,parks,50.0,-79.5221904720106,43.6008015795771,within_100m
+parks-site:14342,Grandravine Community Recreation Centre Washroom,parks,48.35,-79.489744691507,43.7521512884635,within_100m
+parks-site:2076,Goulding Community Recreation Centre Washroom,parks,27.7,-79.4225317411099,43.7909740925968,within_100m
+parks-site:13027,Gord and Irene Risk Community Recreation Centre Washroom,parks,56.07,-79.5671389229525,43.7474932684287,within_100m
+parks-site:2074,Glen Long Community Centre Washroom,parks,52.82,-79.4563415087826,43.7084498502614,within_100m
+parks-site:1745,Flemingdon Community Centre Washroom,parks,40.27,-79.3268832597771,43.7135501045198,within_100m
+parks-site:2070,Falstaff Community Recreation Centre Washroom,parks,51.05,-79.5032594010167,43.7163765886469,within_100m
+parks-site:1740,Fairmount Park Community Centre Washroom,parks,38.89,-79.3151208916565,43.6763887405757,within_100m
+parks-site:2068,Fairfield Seniors' Centre Washroom,parks,83.17,-79.5201534670587,43.6398840303724,within_100m
+parks-site:13487,Fairbank Memorial Community Centre Washroom,parks,52.23,-79.4483773658631,43.6909242820292,within_100m
+parks-site:1737,Etobicoke Olympium Washroom,parks,86.98,-79.5833605128642,43.6501472461349,within_100m
+parks-site:1732,Elmbank Community Centre Washroom,parks,42.11,-79.5888968349346,43.7344136536583,within_100m
+parks-site:1729,Ellesmere Community Recreation Centre Washroom,parks,90.99,-79.298693332065,43.7600297393366,within_100m
+parks-site:2065,Edithvale Community Centre Washroom,parks,51.85,-79.4270205939199,43.7770920355523,within_100m
+parks-site:1725,Edgehill House Washroom,parks,36.5,-79.5171021238074,43.6705765240569,within_100m
+parks-site:1723,Edenbridge Centre Washroom,parks,39.24,-79.5112621272095,43.6776290476873,within_100m
+parks-site:317,East York Community Recreation Centre Washroom,parks,40.8,-79.3494589838297,43.6914297247586,within_100m
+parks-site:1720,Earl Beatty Community Centre Washroom,parks,50.43,-79.3219017941866,43.6863711129315,within_100m
+parks-site:13023,Earl Bales Community Centre Washroom,parks,25.6,-79.4337481318239,43.7544366201838,within_100m
+parks-site:2064,Driftwood Community Recreation Centre Washroom,parks,43.11,-79.5183424199138,43.7651742247299,within_100m
+parks-site:1715,Douglas Snow Aquatic Centre Washroom,parks,67.96,-79.4143010652153,43.7666474850287,within_100m
+parks-site:281,Don Montgomery Community Centre Washroom,parks,97.28,-79.2615717187753,43.7317582962374,within_100m
+parks-site:13020,Domenico Di Luca Community Recreation Centre Washroom,parks,66.77,-79.5163635923475,43.7419801117687,within_100m
+parks-site:2061,Curran Hall Community Centre Washroom,parks,24.47,-79.2110989902839,43.7773609178108,within_100m
+parks-site:2060,Cummer Park Community Centre Washroom,parks,89.01,-79.3721785711875,43.8005742662474,within_100m
+parks-site:2057,Chalkfarm Community Recreation Centre Washroom,parks,38.61,-79.5114467873622,43.7236274429531,within_100m
+parks-site:1675,Centennial Recreation Centre - Scarborough Washroom,parks,161.43,-79.2383983190341,43.7734722190087,review
+parks-site:2055,Cedarbrook Community Centre Washroom,parks,23.61,-79.227175846028,43.7554830809806,within_100m
+parks-site:2054,Carmine Stefano Community Centre Washroom,parks,43.95,-79.5384164019972,43.7338533028761,within_100m
+parks-site:63202,Canoe Landing Community Recreation Centre Washroom,parks,51.46,-79.3943848706244,43.6400981490763,within_100m
+parks-site:1662,Burrows Hall Community Centre Washroom,parks,62.09,-79.2347870227391,43.7945330312397,within_100m
+parks-site:2053,Broadlands Community Recreation Centre Washroom,parks,63.79,-79.3230582851472,43.7464599580018,within_100m
+parks-site:2052,Bob Abate Community Recreation Centre Washroom,parks,38.07,-79.4207201145734,43.6625604652222,within_100m
+parks-site:105,Birkdale Community Centre Washroom,parks,92.69,-79.2630930925691,43.7675368045317,within_100m
+parks-site:2051,Birchmount Community Centre Washroom,parks,84.85,-79.2631173349073,43.6951408908255,within_100m
+parks-site:71,Beaches Recreation Centre Washroom,parks,52.2,-79.2982256848672,43.673738541365,within_100m
+parks-site:63,Barbara Frum Recreation Centre Washroom,parks,33.44,-79.432500159511,43.7205304060331,within_100m
+parks-site:46,Armour Heights Community Centre Washroom,parks,39.87,-79.4217665855406,43.7397400837916,within_100m
+parks-site:1621,Antibes Community Centre Washroom,parks,28.74,-79.4467997959357,43.7809221267889,within_100m
+parks-site:2045,Ancaster Community Centre Washroom,parks,49.45,-79.4662332074626,43.7326599747332,within_100m
+parks-site:13006,Albion Pool and Health Club Washroom,parks,49.09,-79.5804613781269,43.7395530129965,within_100m
+parks-site:1608,Agincourt Community Recreation Centre Washroom,parks,39.02,-79.2762743481491,43.7878821726535,within_100m
+parks-site:4,Adam Beck Community Centre Washroom,parks,23.08,-79.288607719902,43.682703436328,within_100m
+crem-site:0001,North York Civic Centre,crem,55.03,-79.4155464421538,43.7671367528629,within_100m
+crem-site:0002,City Hall,crem,77.45,-79.3843189822716,43.6540739900614,within_100m
+crem-site:0003,St Lawrence South,crem,20.99,-79.3721647155423,43.6490627881197,within_100m
+crem-site:0004,St Lawrence North,crem,32.01,-79.3715910673051,43.6494750286604,within_100m
+crem-site:0005,Union Station,crem,104.38,-79.3791924797295,43.6458628486258,review
+crem-site:0006,St Lawrence Tent,crem,26.21,-79.3709919902406,43.6481130420686,within_100m
+crem-site:0007,Metro Hall,crem,57.95,-79.3895741836276,43.6459235220631,within_100m
+crem-site:0008,Etobicoke Civic Centre,crem,110.34,-79.5664870653406,43.6431240970053,review
+crem-site:0009,York Civic Centre,crem,43.14,-79.4779038517182,43.6900084155718,within_100m
+crem-site:0010,Scraborough Civic Centre,crem,91.23,-79.2563980824236,43.7722643219406,within_100m
+crem-site:0011,Scraborough Civic Centre,crem,86.47,-79.2560730851822,43.7723336488568,within_100m
+crem-site:0012,East York Civic Centre,crem,45.07,-79.3276525118302,43.691198809381,within_100m

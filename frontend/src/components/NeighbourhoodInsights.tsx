@@ -13,6 +13,18 @@ export type NeighbourhoodProperties = {
   accessibility_reported_site_count: number | string;
   population_2021_estimate: number;
   sites_per_10000_residents: number;
+
+  // Preliminary network-length accessibility metrics.
+  // Optional because older neighbourhood datasets
+  // may not include these properties.
+  network_length_km?: number;
+  network_length_within_5min_km?: number;
+  network_length_within_10min_km?: number;
+  network_length_within_15min_km?: number;
+  network_length_coverage_5min_pct?: number | null;
+  network_length_coverage_10min_pct?: number | null;
+  network_length_coverage_15min_pct?: number | null;
+  network_length_method?: string;
 };
 
 export type NeighbourhoodFeature = {

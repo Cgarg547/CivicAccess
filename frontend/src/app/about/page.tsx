@@ -119,6 +119,30 @@ export default function AboutPage() {
               counts.
             </p>
           </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
+  <h3 className="text-lg font-semibold">
+    Toronto Pedestrian Network
+  </h3>
+
+  <p className="mt-2 leading-relaxed text-slate-600">
+    CivicAccess uses Toronto's mapped pedestrian-network
+    data to estimate walking-network coverage around
+    recorded candidate public washroom sites.
+  </p>
+
+  <p className="mt-3 leading-relaxed text-slate-600">
+    Network-distance estimates use an assumed walking
+    speed of 80 metres per minute and are evaluated at
+    5-, 10-, and 15-minute thresholds.
+  </p>
+
+  <p className="mt-3 text-sm leading-relaxed text-slate-500">
+    This is a preliminary network model. The source data
+    and analysis do not establish continuous sidewalks,
+    safe crossings, barrier-free routes, or verified
+    wheelchair accessibility.
+  </p>
+</div>
         </section>
 
         <section className="mt-12 rounded-2xl border border-slate-200 bg-white p-7">
@@ -188,7 +212,112 @@ export default function AboutPage() {
             availability, or equitable access.
           </p>
         </section>
+<section className="mt-12 rounded-2xl border border-slate-200 bg-white p-7">
+  <h2 className="text-2xl font-bold">
+    Walking Accessibility methodology
+  </h2>
 
+  <p className="mt-4 leading-relaxed text-slate-600">
+    CivicAccess provides preliminary walking-network coverage
+    estimates for Toronto's 158 neighbourhoods using recorded
+    candidate public washroom sites and mapped pedestrian-network
+    data.
+  </p>
+
+  <h3 className="mt-6 text-lg font-semibold">
+    How walking coverage is estimated
+  </h3>
+
+  <ol className="mt-3 list-decimal space-y-3 pl-5 leading-relaxed text-slate-600">
+    <li>
+      Recorded candidate washroom sites are associated with
+      the mapped pedestrian network.
+    </li>
+    <li>
+      Preliminary network distances are estimated using
+      a walking speed of 80 metres per minute.
+    </li>
+    <li>
+      The analysis evaluates 5-, 10-, and 15-minute
+      walking-distance thresholds.
+    </li>
+    <li>
+      For each neighbourhood, the length of mapped network
+      within each threshold is compared with its total
+      mapped network length.
+    </li>
+  </ol>
+
+  <div className="mt-6 rounded-xl bg-slate-100 px-5 py-6 text-center text-sm font-semibold sm:text-base">
+    (Mapped network length within walking threshold ÷
+    Total mapped neighbourhood network length) × 100
+  </div>
+
+  <h3 className="mt-7 text-lg font-semibold">
+    Citywide results
+  </h3>
+
+  <div className="mt-4 overflow-x-auto">
+    <table className="w-full text-left text-sm">
+      <thead className="border-b border-slate-200 text-slate-700">
+        <tr>
+          <th className="py-3 pr-4">Walking threshold</th>
+          <th className="py-3 pr-4">Network length</th>
+          <th className="py-3">Coverage</th>
+        </tr>
+      </thead>
+
+      <tbody className="divide-y divide-slate-100 text-slate-600">
+        <tr>
+          <td className="py-3 pr-4">5 minutes</td>
+          <td className="py-3 pr-4">906.58 km</td>
+          <td className="py-3">11.30%</td>
+        </tr>
+        <tr>
+          <td className="py-3 pr-4">10 minutes</td>
+          <td className="py-3 pr-4">3,168.15 km</td>
+          <td className="py-3">39.48%</td>
+        </tr>
+        <tr>
+          <td className="py-3 pr-4">15 minutes</td>
+          <td className="py-3 pr-4">5,290.33 km</td>
+          <td className="py-3">65.93%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p className="mt-4 text-sm text-slate-500">
+    Total mapped network length: approximately 8,024.01 km.
+    Citywide percentages are weighted by network length,
+    rather than calculated as simple averages of neighbourhood
+    percentages.
+  </p>
+
+  <h3 className="mt-7 text-lg font-semibold">
+    Interpretation and limitations
+  </h3>
+
+  <p className="mt-3 leading-relaxed text-slate-600">
+    These results describe the estimated share of mapped
+    pedestrian-network length near recorded candidate sites.
+    They do not measure the percentage of Toronto residents
+    who can access a public washroom.
+  </p>
+
+  <p className="mt-3 leading-relaxed text-slate-600">
+    The underlying network analysis is preliminary. Sidewalk
+    continuity, crossings, physical barriers, wheelchair
+    accessibility, and site-to-network connections have not
+    been independently verified.
+  </p>
+
+  <p className="mt-3 font-medium leading-relaxed text-slate-800">
+    Walking-network coverage should not be interpreted as
+    verified accessible routing or guaranteed availability
+    of public washrooms.
+  </p>
+</section>
         <section className="mt-12 rounded-2xl border border-slate-200 bg-white p-7">
           <h2 className="text-2xl font-bold">
             Understanding accessibility information
