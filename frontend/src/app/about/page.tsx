@@ -37,6 +37,34 @@ export default function AboutPage() {
           </p>
         </div>
 
+        <section className="mt-10 rounded-2xl border border-blue-200 bg-white p-7">
+          <h2 className="text-2xl font-bold">
+            Technical Validation &amp; Reproducibility
+          </h2>
+
+          <p className="mt-4 leading-relaxed text-slate-600">
+            CivicAccess documents its data-integrity checks, geographic
+            validation, pedestrian-network connectivity, and walking-coverage
+            reproducibility. The published walking-coverage GeoJSON was
+            reproduced exactly using the current inputs and calculation script.
+          </p>
+
+          <p className="mt-3 text-sm leading-relaxed text-slate-500">
+            These checks establish consistency and reproducibility, not
+            independently verified washroom availability, safe walking routes,
+            or physical accessibility.
+          </p>
+
+          <a
+            href="https://github.com/Cgarg547/CivicAccess/blob/main/docs/technical_validation_report.md"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-block font-semibold text-blue-700 hover:underline"
+          >
+            Read the Technical Validation Report ↗
+          </a>
+        </section>
+
         <section className="mt-10 grid gap-4 sm:grid-cols-3">
           {[
             {
