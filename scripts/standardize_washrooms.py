@@ -66,6 +66,7 @@ def standardize_parks():
             "hours_raw": clean_text(row["HOURS"]),
             "status_raw": clean_text(row["Status"]),
             "status_reason_raw": clean_text(row["Reason"]),
+            "status_comments_raw": clean_text(row["Comments"]),
             "accessibility_raw": clean_text(
                 row["ACCESSIBLE_FEATURES"]
             ),

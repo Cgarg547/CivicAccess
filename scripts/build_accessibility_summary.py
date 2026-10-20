@@ -72,6 +72,9 @@ def main():
             "accessibility_features": None,
             "hours_summary": None,
             "status_summary": None,
+            "status_reason_raw": None,
+            "status_comments_raw": None,
+            "posted_date_raw": None,
             "geometry": site.geometry,
         }
 
@@ -81,6 +84,9 @@ def main():
             status = clean(site["status_raw"])
 
             result["accessibility_features"] = features
+            result["status_reason_raw"] = clean(site["status_reason_raw"])
+            result["status_comments_raw"] = clean(site["status_comments_raw"])
+            result["posted_date_raw"] = clean(site["posted_date_raw"])
             result["hours_summary"] = hours
             result["status_summary"] = (
                 f"Raw Parks status: {status}"
@@ -189,7 +195,10 @@ def main():
     if len(enriched) != len(sites):
         raise ValueError("Site count changed")
 
-    if int(enriched["source_record_count"].sum()) != 473:
+    expected_records = int(sites["source_record_count"].sum())
+    actual_records = int(enriched["source_record_count"].sum())
+
+    if actual_records != expected_records:
         raise ValueError("Underlying record count changed")
 
     enriched.to_file(

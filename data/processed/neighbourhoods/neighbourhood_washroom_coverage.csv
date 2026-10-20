@@ -71,7 +71,6 @@ neighbourhood_code,neighbourhood_name,candidate_site_count,parks_site_count,crem
 064,Woodbine Corridor,1,1,0,0,1
 094,Wychwood,1,1,0,0,1
 031,Yorkdale-Glen Park,1,1,0,0,1
-042,Banbury-Don Mills,2,2,0,1,2
 052,Bayview Village,2,2,0,2,2
 096,Casa Loma,2,2,0,1,2
 133,Centennial Scarborough,2,2,0,0,2
@@ -104,6 +103,7 @@ neighbourhood_code,neighbourhood_name,candidate_site_count,parks_site_count,crem
 060,Woodbine-Lumsden,2,2,0,1,2
 027,York University Heights,2,2,0,1,2
 095,Annex,3,3,0,2,3
+042,Banbury-Don Mills,3,3,0,1,3
 039,Bedford Park-Nortown,3,3,0,0,3
 041,Bridle Path-Sunnybrook-York Mills,3,3,0,1,3
 071,Cabbagetown-South St.James Town,3,3,0,0,3

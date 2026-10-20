@@ -237,7 +237,10 @@ def main():
 
     assert len(enriched_rows) == 158
     assert len(enriched_features) == 158
-    assert total_sites == 366
+    assert total_sites == sum(
+        int(row["candidate_site_count"])
+        for row in coverage_rows
+    )
     assert zero_site_count == 26
 
     print("Validation passed.")

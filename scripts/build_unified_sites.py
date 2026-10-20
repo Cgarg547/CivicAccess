@@ -46,6 +46,9 @@ def load_parks():
             ),
             "hours_raw": clean(row["HOURS"]),
             "status_raw": clean(row["Status"]),
+            "status_reason_raw": clean(row["Reason"]),
+            "status_comments_raw": clean(row["Comments"]),
+            "posted_date_raw": clean(row["PostedDate"]),
             "geometry": point,
         })
 
@@ -87,6 +90,9 @@ def load_crem():
             "accessibility_raw": None,
             "hours_raw": None,
             "status_raw": None,
+            "status_reason_raw": None,
+            "status_comments_raw": None,
+            "posted_date_raw": None,
             "geometry": geom,
         })
 

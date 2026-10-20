@@ -48,6 +48,9 @@ type Site = {
     restricted_access_count: number | null;
     hours_summary: string | null;
     status_summary: string | null;
+    status_reason_raw?: string | null;
+    status_comments_raw?: string | null;
+    posted_date_raw?: string | null;
   };
   geometry: {
     type: "Point";
@@ -343,6 +346,29 @@ const walkingCoverageKey =
     | "network_length_coverage_10min_pct"
     | "network_length_coverage_15min_pct";
 
+const totalNetworkKm = networkNeighbourhoods.features.reduce(
+  (sum, feature) =>
+    sum + Number(feature.properties.network_length_km || 0),
+  0
+);
+
+const coveredNetworkKey =
+  `network_length_within_${walkingMinutes}min_km` as
+    | "network_length_within_5min_km"
+    | "network_length_within_10min_km"
+    | "network_length_within_15min_km";
+
+const coveredNetworkKm = networkNeighbourhoods.features.reduce(
+  (sum, feature) =>
+    sum + Number(feature.properties[coveredNetworkKey] || 0),
+  0
+);
+
+const citywideCoveragePct =
+  totalNetworkKm > 0
+    ? (coveredNetworkKm / totalNetworkKm) * 100
+    : null;
+
 const walkingRankings = networkNeighbourhoods.features
   .filter((neighbourhood) =>
     neighbourhood.properties.neighbourhood_name
@@ -555,20 +581,23 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
   </p>
 
   <p className="mt-4 text-3xl font-bold text-slate-900">
-    {walkingMinutes === 5
-      ? "11.30%"
-      : walkingMinutes === 10
-        ? "39.48%"
-        : "65.93%"}
+    {citywideCoveragePct === null
+      ? "—"
+      : `${citywideCoveragePct.toFixed(2)}%`}
   </p>
 
   <p className="mt-1 text-xs text-slate-500">
-    {walkingMinutes === 5
-      ? "906.58"
-      : walkingMinutes === 10
-        ? "3,168.15"
-        : "5,290.33"}{" "}
-    km of 8,024.01 km mapped network
+    {citywideCoveragePct === null
+      ? networkLoading
+        ? "Loading network coverage..."
+        : "Network coverage unavailable"
+      : `${coveredNetworkKm.toLocaleString("en-CA", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })} km of ${totalNetworkKm.toLocaleString("en-CA", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })} km mapped network`}
   </p>
 </div>
 

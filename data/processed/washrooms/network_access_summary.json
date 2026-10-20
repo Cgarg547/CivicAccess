@@ -2,24 +2,24 @@
   "method": "multi_source_dijkstra",
   "model_status": "preliminary",
   "walking_speed_m_per_min": 80.0,
-  "source_site_count": 366,
-  "network_node_count": 72911,
-  "reachable_node_count": 72899,
+  "source_site_count": 367,
+  "network_node_count": 72912,
+  "reachable_node_count": 72900,
   "thresholds": {
     "5": {
       "distance_m": 400.0,
-      "reachable_nodes": 9773,
-      "percentage_of_network_nodes": 13.4
+      "reachable_nodes": 9816,
+      "percentage_of_network_nodes": 13.46
     },
     "10": {
       "distance_m": 800.0,
-      "reachable_nodes": 30396,
-      "percentage_of_network_nodes": 41.69
+      "reachable_nodes": 30511,
+      "percentage_of_network_nodes": 41.85
     },
     "15": {
       "distance_m": 1200.0,
-      "reachable_nodes": 49099,
-      "percentage_of_network_nodes": 67.34
+      "reachable_nodes": 49355,
+      "percentage_of_network_nodes": 67.69
     }
   },
   "limitations": [

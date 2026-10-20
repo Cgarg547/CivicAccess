@@ -22,6 +22,9 @@ type Site = {
     restricted_access_count: number | null;
     hours_summary: string | null;
     status_summary: string | null;
+    status_reason_raw?: string | null;
+    status_comments_raw?: string | null;
+    posted_date_raw?: string | null;
   };
   geometry: {
     type: "Point";
@@ -169,6 +172,37 @@ export default function FacilityDetailsPanel({
           <p className="mt-2 text-sm text-slate-700">
             {p.status_summary ?? "Status not reported"}
           </p>
+
+          {!isCrem && (p.status_reason_raw || p.status_comments_raw) && (
+            <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50 p-3">
+              <p className="text-sm font-semibold text-amber-950">
+                Source-reported maintenance notice
+              </p>
+
+              {p.status_reason_raw && (
+                <p className="mt-2 text-sm text-amber-900">
+                  Reason: {p.status_reason_raw}
+                </p>
+              )}
+
+              {p.posted_date_raw && (
+                <p className="mt-1 text-xs text-amber-800">
+                  Source posting date: {p.posted_date_raw}
+                </p>
+              )}
+
+              {p.status_comments_raw && (
+                <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-amber-950">
+                  {p.status_comments_raw}
+                </p>
+              )}
+
+              <p className="mt-3 text-xs leading-relaxed text-amber-900">
+                This is a source-reported notice, not live verification
+                of the facility's current condition or closure status.
+              </p>
+            </div>
+          )}
 
           {(p.restricted_access_count ?? 0) > 0 && (
             <p className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">

@@ -2,10 +2,10 @@
   {
     "source": "parks",
     "path": "data/raw/washrooms/Washroom Facilities - 4326.geojson",
-    "records": 354,
+    "records": 355,
     "crs": "EPSG:4326",
     "geometry_types": {
-      "MultiPoint": 354
+      "MultiPoint": 355
     },
     "missing_geometries": 0,
     "empty_geometries": 0,

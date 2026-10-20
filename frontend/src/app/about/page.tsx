@@ -40,7 +40,7 @@ export default function AboutPage() {
         <section className="mt-10 grid gap-4 sm:grid-cols-3">
           {[
             {
-              value: "366",
+              value: "367",
               label: "Recorded candidate sites",
             },
             {
@@ -48,7 +48,7 @@ export default function AboutPage() {
               label: "Toronto neighbourhoods",
             },
             {
-              value: "473",
+              value: "474",
               label: "Underlying washroom records",
             },
           ].map((stat) => (
@@ -74,7 +74,7 @@ export default function AboutPage() {
             <p className="mt-2 leading-relaxed text-slate-600">
               Provides recorded washroom locations associated
               with Toronto parks and recreation facilities.
-              CivicAccess includes 354 candidate sites from
+              CivicAccess includes 355 candidate sites from
               this source. Available attributes may include
               location information and reported accessibility
               features.
@@ -161,7 +161,7 @@ export default function AboutPage() {
             </li>
             <li>
               Parks and CREM sites are combined into a
-              geographic dataset of 366 candidate sites.
+              geographic dataset of 367 candidate sites.
             </li>
             <li>
               Candidate sites are assigned to Toronto
@@ -270,25 +270,25 @@ export default function AboutPage() {
       <tbody className="divide-y divide-slate-100 text-slate-600">
         <tr>
           <td className="py-3 pr-4">5 minutes</td>
-          <td className="py-3 pr-4">906.58 km</td>
-          <td className="py-3">11.30%</td>
+          <td className="py-3 pr-4">909.48 km</td>
+          <td className="py-3">11.33%</td>
         </tr>
         <tr>
           <td className="py-3 pr-4">10 minutes</td>
-          <td className="py-3 pr-4">3,168.15 km</td>
-          <td className="py-3">39.48%</td>
+          <td className="py-3 pr-4">3,179.99 km</td>
+          <td className="py-3">39.63%</td>
         </tr>
         <tr>
           <td className="py-3 pr-4">15 minutes</td>
-          <td className="py-3 pr-4">5,290.33 km</td>
-          <td className="py-3">65.93%</td>
+          <td className="py-3 pr-4">5,315.63 km</td>
+          <td className="py-3">66.25%</td>
         </tr>
       </tbody>
     </table>
   </div>
 
   <p className="mt-4 text-sm text-slate-500">
-    Total mapped network length: approximately 8,024.01 km.
+    Total mapped network length: approximately 8,024.02 km.
     Citywide percentages are weighted by network length,
     rather than calculated as simple averages of neighbourhood
     percentages.
