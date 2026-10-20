@@ -312,6 +312,18 @@ export default function AboutPage() {
     been independently verified.
   </p>
 
+  <p className="mt-3 leading-relaxed text-slate-600">
+    The source pedestrian network contains disconnected
+    components and may omit real-world connections. For
+    example, the Billy Bishop Toronto City Airport pedestrian
+    tunnel is documented in the airport's 2022 map but is
+    not represented as a connecting route in the network
+    used by CivicAccess. The analysis preserves this
+    disconnection rather than assuming an unverified route.
+    Disconnected network segments do not necessarily mean
+    that locations are physically inaccessible.
+  </p>
+
   <p className="mt-3 font-medium leading-relaxed text-slate-800">
     Walking-network coverage should not be interpreted as
     verified accessible routing or guaranteed availability

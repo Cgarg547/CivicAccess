@@ -1,0 +1,6 @@
+dataset_role,local_path,bytes,sha256,source_url,retrieved_date,license,review_status
+parks_washrooms,data/raw/washrooms/Washroom Facilities - 4326.geojson,267069,4f2613b3439f4862d5ae65f243c13aebcafec1d5f8ba4b4633bb982e05f877ca,,,,provenance_pending
+crem_washrooms,data/raw/CREM Public Washrooms - 4326.geojson,71531,63906781c921ff5c0ce37584397dceae9b9802a826e5364f224999dda5f6ee9b,,,,provenance_pending
+neighbourhood_boundaries,data/raw/neighbourhoods/Neighbourhoods - 4326.geojson,2141269,b0cb58077f5b3a47e0e56a68913c6980cfaf39d37d7d020fd91b60650c480233,,,,provenance_pending
+population_profiles,data/raw/neighbourhoods/neighbourhood-profiles-2021-158-model.xlsx,1763175,9a3c372907e9de09407d847398703146a9cfc0f5b2217446fd61ab8ab35345eb,,,,provenance_pending
+pedestrian_network,data/raw/pedestrians/Pedestrian Network Data - 4326.geojson,36736103,49f082913cfb3d0a766dd4036d17e623e2303e65515866e7744084e4a749c8fd,,,,provenance_pending

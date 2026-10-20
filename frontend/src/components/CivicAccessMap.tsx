@@ -29,7 +29,7 @@ import NeighbourhoodInsights, {
 
 maplibregl.setWorkerUrl("/maplibre-worker.mjs");
 
-type MapMode = "washrooms" | "neighbourhoods" | "walking" | "scenario";
+type MapMode = "washrooms" | "neighbourhoods" | "walking" | "scenario" | "parks";
 
 type Site = {
   type: "Feature";
@@ -61,6 +61,31 @@ type Site = {
 type SiteCollection = {
   type: "FeatureCollection";
   features: Site[];
+};
+
+type ParkFeature = {
+  type: "Feature";
+  properties: {
+    AREA_ID: number;
+    AREA_NAME: string;
+    park_area_ha: number;
+    nearest_site_distance_m: number;
+    internal_candidate_count: number;
+  };
+  geometry:
+    | {
+        type: "Polygon";
+        coordinates: number[][][];
+      }
+    | {
+        type: "MultiPolygon";
+        coordinates: number[][][][];
+      };
+};
+
+type ParkCollection = {
+  type: "FeatureCollection";
+  features: ParkFeature[];
 };
 
 type NeighbourhoodCollection = {
@@ -107,11 +132,52 @@ function fitNeighbourhood(
   }
 }
 
+
+function fitPark(map: MapRef | null, park: ParkFeature) {
+  if (!map) return;
+
+  const bounds = new maplibregl.LngLatBounds();
+  const geometry = park.geometry;
+
+  if (geometry.type === "Polygon") {
+    for (const ring of geometry.coordinates) {
+      for (const coordinate of ring) {
+        bounds.extend([coordinate[0], coordinate[1]]);
+      }
+    }
+  } else if (geometry.type === "MultiPolygon") {
+    for (const polygon of geometry.coordinates) {
+      for (const ring of polygon) {
+        for (const coordinate of ring) {
+          bounds.extend([coordinate[0], coordinate[1]]);
+        }
+      }
+    }
+  }
+
+  if (!bounds.isEmpty()) {
+    map.fitBounds(bounds, {
+      padding: 100,
+      duration: 900,
+      maxZoom: 16,
+    });
+  }
+}
+
 export default function CivicAccessMap() {
   const mapRef = useRef<MapRef>(null);
 
   const [mapMode, setMapMode] =
     useState<MapMode>("washrooms");
+
+  const [parks, setParks] = useState<ParkCollection>({
+    type: "FeatureCollection",
+    features: [],
+  });
+
+  const [parksLoading, setParksLoading] = useState(false);
+  const [parksError, setParksError] = useState<string | null>(null);
+  const [parksRequested, setParksRequested] = useState(false);
 
   const [sites, setSites] = useState<Site[]>([]);
 
@@ -152,6 +218,11 @@ export default function CivicAccessMap() {
   const [selectedNeighbourhood, setSelectedNeighbourhood] =
     useState<NeighbourhoodFeature | null>(null);
 
+  const [selectedPark, setSelectedPark] =
+    useState<ParkFeature | null>(null);
+
+
+
   const [hypotheticalSites, setHypotheticalSites] = useState(1);
 
   const [sitesLoading, setSitesLoading] = useState(true);
@@ -170,6 +241,48 @@ export default function CivicAccessMap() {
   
   const [networkError, setNetworkError] =
     useState<string | null>(null);
+
+  useEffect(() => {
+    if (mapMode !== "parks" || parksRequested) return;
+
+    setParksRequested(true);
+    setParksLoading(true);
+    setParksError(null);
+
+    async function loadParks() {
+      try {
+        const response = await fetch(
+          "/data/park_washroom_proximity.geojson"
+        );
+
+        if (!response.ok) {
+          throw new Error("Unable to load park proximity data");
+        }
+
+        const data: ParkCollection = await response.json();
+
+        if (
+          data.type !== "FeatureCollection" ||
+          !Array.isArray(data.features) ||
+          data.features.length !== 1628
+        ) {
+          throw new Error("Invalid park proximity GeoJSON");
+        }
+
+        setParks(data);
+      } catch (err) {
+        setParksError(
+          err instanceof Error
+            ? err.message
+            : "Unknown park data error"
+        );
+      } finally {
+        setParksLoading(false);
+      }
+    }
+
+    loadParks();
+  }, [mapMode, parksRequested]);
 
   useEffect(() => {
     async function loadSites() {
@@ -504,6 +617,7 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
     setMapMode(mode);
     setSelectedSite(null);
     setSelectedNeighbourhood(null);
+    setSelectedPark(null);
     setHypotheticalSites(1);
 
     if (mode !== "washrooms") {
@@ -529,8 +643,8 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
     value.toLocaleString("en-CA");
 
   return (
-    <div className="flex h-[calc(100vh-80px)] w-full flex-col md:flex-row">
-        <aside className="flex h-64 min-h-0 shrink-0 flex-col overflow-hidden border-r border-slate-200 bg-white md:h-full md:w-[360px]">
+    <div className="flex w-full flex-col md:h-[calc(100vh-80px)] md:flex-row">
+        <aside className="flex h-[420px] min-h-0 shrink-0 flex-col overflow-hidden border-r border-slate-200 bg-white md:h-full md:w-[360px]">
         <DashboardOverview
   sites={sites}
   neighbourhoods={neighbourhoods.features}
@@ -813,6 +927,72 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
 )}
 
           </div>
+        ) : mapMode === "parks" ? (
+          <div className="h-full overflow-y-auto bg-white p-5">
+            <h2 className="text-lg font-bold text-slate-900">
+              Parks & Washrooms
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed text-slate-600">
+              Explore park areas and their proximity to recorded candidate washroom sites.
+            </p>
+
+            <div className="mt-5 grid grid-cols-2 gap-3">
+              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p className="text-xs text-slate-500">Mapped parks</p>
+                <p className="mt-1 text-2xl font-bold text-slate-900">
+                  {parks.features.length.toLocaleString("en-CA")}
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p className="text-xs text-slate-500">With internal candidates</p>
+                <p className="mt-1 text-2xl font-bold text-emerald-700">
+                  {parks.features.filter(p => Number(p.properties.internal_candidate_count) > 0).length.toLocaleString("en-CA")}
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-4 rounded-xl border border-slate-200 p-4">
+              <h3 className="text-sm font-bold text-slate-900">
+                Proximity overview
+              </h3>
+              <dl className="mt-3 space-y-3 text-sm">
+                <div className="flex justify-between gap-3">
+                  <dt className="text-slate-600">No internal candidate recorded</dt>
+                  <dd className="font-semibold text-amber-700">
+                    {parks.features.filter(p => Number(p.properties.internal_candidate_count) === 0).length.toLocaleString("en-CA")}
+                  </dd>
+                </div>
+                <div className="flex justify-between gap-3">
+                  <dt className="text-slate-600">Over 1 km from nearest candidate</dt>
+                  <dd className="font-semibold text-slate-900">
+                    {parks.features.filter(p => Number(p.properties.nearest_site_distance_m) > 1000).length.toLocaleString("en-CA")}
+                  </dd>
+                </div>
+              </dl>
+            </div>
+
+            {parksLoading && (
+              <p className="mt-4 text-sm text-slate-600">
+                Loading park data...
+              </p>
+            )}
+            {parksError && (
+              <p role="alert" className="mt-4 text-sm text-red-600">
+                {parksError}
+              </p>
+            )}
+            {!parksLoading && !parksError && (
+              <p className="mt-4 text-sm text-emerald-700">
+                Select a park on the map to inspect its details.
+              </p>
+            )}
+
+            <p className="mt-5 border-t border-slate-200 pt-3 text-xs leading-relaxed text-slate-500">
+              Distances are straight-line estimates, not walking routes.
+              Current facility availability has not been independently verified.
+              No internal candidate does not mean a park has no public washroom.
+            </p>
+          </div>
         ) : (
           <ScenarioPlanner
             neighbourhoods={neighbourhoods.features}
@@ -830,7 +1010,7 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
 </div>
       </aside>
 
-      <div className="relative min-h-0 min-w-0 flex-1">
+      <div className="relative h-[520px] min-h-0 min-w-0 flex-1 md:h-auto">
         <Map
           ref={mapRef}
           mapLib={maplibregl}
@@ -844,7 +1024,9 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
           interactiveLayerIds={
             mapMode === "washrooms"
               ? ["washroom-circles"]
-              : ["neighbourhood-fill"]
+              : mapMode === "parks"
+                ? ["park-fill"]
+                : ["neighbourhood-fill"]
           }
           onClick={(event) => {
             const feature = event.features?.[0];
@@ -865,6 +1047,28 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
                 handleSelectSite(site);
               } else {
                 setSelectedSite(null);
+              }
+
+              return;
+            }
+
+            if (mapMode === "parks") {
+              if (!feature) {
+                setSelectedPark(null);
+                return;
+              }
+
+              const parkId = Number(feature.properties?.AREA_ID);
+
+              const park = parks.features.find(
+                (item) =>
+                  Number(item.properties.AREA_ID) === parkId
+              );
+
+              setSelectedPark(park ?? null);
+
+              if (park) {
+                fitPark(mapRef.current, park);
               }
 
               return;
@@ -893,6 +1097,37 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
           }}
         >
           <NavigationControl position="top-right" />
+          {mapMode === "parks" && parks.features.length > 0 && (
+            <Source
+              id="park-proximity"
+              type="geojson"
+              data={parks as GeoJSON.FeatureCollection}
+            >
+              <Layer
+                id="park-fill"
+                type="fill"
+                paint={{
+                  "fill-color": [
+                    "case",
+                    [">", ["get", "internal_candidate_count"], 0],
+                    "#16856c",
+                    "#e3a747",
+                  ],
+                  "fill-opacity": 0.55,
+                }}
+              />
+              <Layer
+                id="park-outline"
+                type="line"
+                paint={{
+                  "line-color": "#334155",
+                  "line-width": 0.7,
+                  "line-opacity": 0.7,
+                }}
+              />
+            </Source>
+          )}
+
 
           {mapMode === "washrooms" && (
             <>
@@ -940,7 +1175,7 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
             </>
           )}
 
-          {mapMode !== "washrooms" && (
+          {mapMode !== "washrooms" && mapMode !== "parks" && (
             <>
               <Source
                 id="neighbourhood-coverage"
@@ -1073,7 +1308,7 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
           )}
         </Map>
 
-          <div className="absolute left-2 right-2 top-2 z-10 flex gap-1 rounded-xl bg-white p-1 shadow-lg sm:left-3 sm:right-auto sm:top-3 sm:gap-2">
+          <div className="absolute left-2 right-2 top-2 z-10 flex gap-1 overflow-x-auto rounded-xl bg-white p-1 shadow-lg sm:left-3 sm:right-auto sm:top-3 sm:gap-2">
             <button
               type="button"
               onClick={() => changeMode("washrooms")}
@@ -1131,6 +1366,19 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
               <span className="sm:hidden">Planner</span>
               <span className="hidden sm:inline">Scenario Planner</span>
             </button>
+            <button
+              type="button"
+              onClick={() => changeMode("parks")}
+              aria-pressed={mapMode === "parks"}
+              className={`min-w-0 flex-1 rounded-lg px-2 py-2 text-[11px] font-semibold transition sm:flex-none sm:px-3 sm:text-sm ${
+                mapMode === "parks"
+                  ? "bg-slate-900 text-white"
+                  : "text-slate-600 hover:bg-slate-100"
+              }`}
+            >
+              <span className="sm:hidden">Parks</span>
+              <span className="hidden sm:inline">Parks & Washrooms</span>
+            </button>
           </div>
 
         {mapMode === "washrooms" && selectedSite && (
@@ -1142,6 +1390,74 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
             cremError={cremError}
             onClose={() => setSelectedSite(null)}
           />
+        )}
+
+        {mapMode === "parks" && selectedPark && (
+          <div className="absolute bottom-3 left-3 right-3 z-10 max-h-[55%] overflow-y-auto rounded-xl border border-slate-200 bg-white p-5 shadow-xl sm:bottom-auto sm:left-auto sm:right-5 sm:top-24 sm:w-[340px]">
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                  Park infrastructure
+                </p>
+                <h2 className="mt-1 text-lg font-bold text-slate-900">
+                  {selectedPark.properties.AREA_NAME}
+                </h2>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setSelectedPark(null)}
+                aria-label="Close park details"
+                className="rounded-lg px-2 py-1 text-lg text-slate-500 hover:bg-slate-100"
+              >
+                ×
+              </button>
+            </div>
+
+            <div className="mt-5 rounded-xl bg-slate-50 p-4">
+              <p className="text-xs text-slate-500">
+                Mapped park area
+              </p>
+              <p className="mt-1 text-3xl font-bold text-slate-900">
+                {Number(selectedPark.properties.park_area_ha).toFixed(1)}
+                <span className="ml-2 text-sm font-medium">hectares</span>
+              </p>
+            </div>
+
+            <dl className="mt-4 space-y-3 text-sm">
+              <div className="flex justify-between gap-4">
+                <dt className="text-slate-500">
+                  Internal candidate sites
+                </dt>
+                <dd className="font-semibold text-slate-900">
+                  {selectedPark.properties.internal_candidate_count}
+                </dd>
+              </div>
+
+              <div className="flex justify-between gap-4">
+                <dt className="text-slate-500">
+                  Nearest recorded candidate
+                </dt>
+                <dd className="font-semibold text-slate-900">
+                  {Number.isFinite(
+                    selectedPark.properties.nearest_site_distance_m
+                  )
+                    ? selectedPark.properties.nearest_site_distance_m >= 1000
+                      ? `${(selectedPark.properties.nearest_site_distance_m / 1000).toFixed(2)} km`
+                      : `${Math.round(selectedPark.properties.nearest_site_distance_m)} m`
+                    : "Unavailable"}
+                </dd>
+              </div>
+            </dl>
+
+            <p className="mt-5 border-t border-slate-200 pt-3 text-xs leading-relaxed text-slate-500">
+              Distances are straight-line estimates to recorded candidate
+              sites, not walking routes. Candidate locations and current
+              facility availability have not been independently verified.
+              No internal candidate does not establish that a park has no
+              public washroom.
+            </p>
+          </div>
         )}
 
         {mapMode === "neighbourhoods" &&
@@ -1454,7 +1770,8 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
           </div>
         )}
 
-        {mapMode !== "washrooms" &&
+        {(mapMode === "neighbourhoods" ||
+          mapMode === "scenario") &&
           neighbourhoodsLoading && (
             <div className="absolute left-5 top-20 rounded-lg bg-white p-3 text-sm shadow-lg">
               Loading neighbourhood coverage...
@@ -1470,7 +1787,8 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
           </div>
         )}
 
-        {mapMode !== "washrooms" &&
+        {(mapMode === "neighbourhoods" ||
+          mapMode === "scenario") &&
           neighbourhoodError && (
             <div
               role="alert"
@@ -1498,6 +1816,35 @@ const simulatedNeighbourhoodGeoJSON: NeighbourhoodCollection = {
               {filteredSites.length} candidate sites
             </p>
           </div>
+        ) : mapMode === "parks" ? (
+  <div className={`pointer-events-none absolute bottom-5 max-w-[290px] rounded-xl border border-slate-200 bg-white p-4 text-slate-900 shadow-lg ${selectedPark ? "left-5 right-auto" : "right-5"}`}>
+    <p className="text-sm font-bold">Park & washroom proximity</p>
+
+    <div className="mt-3 flex items-start gap-2 text-xs">
+      <span className="mt-0.5 h-3 w-3 shrink-0 rounded-sm bg-emerald-600" />
+      <span>
+        <strong>Internal candidate recorded</strong>
+        <span className="mt-0.5 block text-slate-500">
+          At least one recorded candidate site falls within the park polygon.
+        </span>
+      </span>
+    </div>
+
+    <div className="mt-3 flex items-start gap-2 text-xs">
+      <span className="mt-0.5 h-3 w-3 shrink-0 rounded-sm bg-amber-500" />
+      <span>
+        <strong>No internal candidate recorded</strong>
+        <span className="mt-0.5 block text-slate-500">
+          This does not establish that the park has no public washroom.
+        </span>
+      </span>
+    </div>
+
+    <p className="mt-3 border-t border-slate-200 pt-3 text-xs leading-relaxed text-slate-500">
+      Nearest-site distances are straight-line estimates, not walking routes.
+      Facility availability has not been independently verified.
+    </p>
+  </div>
         ) : mapMode === "walking" ? (
   <div className="pointer-events-none absolute bottom-5 right-5 max-w-[260px] rounded-xl bg-white p-4 text-slate-900 shadow-lg">
     <p className="text-xs font-semibold">
