@@ -48,6 +48,26 @@ The existing network coverage estimates are model-based and should
 not be interpreted as proof that these locations are physically
 inaccessible.
 
+## Proximity audit
+
+The local `data/processed/tunnel_network_proximity.csv` diagnostic
+contains 135 nearby network-feature records: 94 for the mainland
+anchor and 41 for the island anchor.
+
+The closest mainland feature is OBJECTID 13517, classified as a
+Trail, with sidewalk classification "Not applicable". The closest
+island feature is OBJECTID 1653, classified as an Access Road,
+with "No sidewalk on either side".
+
+Both reported anchor-to-feature distances are 0.00 metres. These
+measurements establish coincidence with mapped features at the
+respective anchors; they do not establish a connection between the
+components, a traversable tunnel, or permission to walk the route.
+
+The CSV is a diagnostic artifact, not proof of tunnel connectivity.
+Its generation procedure and source inputs should be retained if
+the measurements are used in a formal reproducibility review.
+
 ## Future validation
 
 1. Obtain authoritative georeferenced tunnel entrance locations.
