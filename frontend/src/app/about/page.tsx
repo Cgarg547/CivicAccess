@@ -71,6 +71,7 @@ export default function AboutPage() {
             <h3 className="text-lg font-semibold">
               Toronto Parks Washroom Facilities
             </h3>
+            <a href="https://open.toronto.ca/dataset/washroom-facilities/" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-semibold text-blue-700 hover:underline">View official Toronto Open Data source ↗</a>
             <p className="mt-2 leading-relaxed text-slate-600">
               Provides recorded washroom locations associated
               with Toronto parks and recreation facilities.
@@ -85,6 +86,7 @@ export default function AboutPage() {
             <h3 className="text-lg font-semibold">
               CREM Public Washrooms
             </h3>
+            <a href="https://open.toronto.ca/dataset/corporate-real-estate-management-portfolio-washrooms/" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-semibold text-blue-700 hover:underline">View official Toronto Open Data source ↗</a>
             <p className="mt-2 leading-relaxed text-slate-600">
               Provides 119 individual washroom records associated
               with 12 building sites. CivicAccess groups these
@@ -98,6 +100,7 @@ export default function AboutPage() {
             <h3 className="text-lg font-semibold">
               Toronto Neighbourhoods
             </h3>
+            <a href="https://open.toronto.ca/dataset/neighbourhoods/" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-semibold text-blue-700 hover:underline">View official Toronto Open Data source ↗</a>
             <p className="mt-2 leading-relaxed text-slate-600">
               The analysis uses Toronto's 158 neighbourhood
               boundaries to group recorded candidate sites
@@ -110,6 +113,7 @@ export default function AboutPage() {
             <h3 className="text-lg font-semibold">
               2021 Neighbourhood Profiles
             </h3>
+            <a href="https://open.toronto.ca/dataset/neighbourhood-profiles/" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-semibold text-blue-700 hover:underline">View official Toronto Open Data source ↗</a>
             <p className="mt-2 leading-relaxed text-slate-600">
               Population denominators come from the
               census-based 2021 neighbourhood profile
@@ -123,6 +127,7 @@ export default function AboutPage() {
   <h3 className="text-lg font-semibold">
     Toronto Pedestrian Network
   </h3>
+            <a href="https://open.toronto.ca/dataset/pedestrian-network/" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-semibold text-blue-700 hover:underline">View official Toronto Open Data source ↗</a>
 
   <p className="mt-2 leading-relaxed text-slate-600">
     CivicAccess uses Toronto's mapped pedestrian-network
@@ -143,6 +148,39 @@ export default function AboutPage() {
     wheelchair accessibility.
   </p>
 </div>
+
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
+            <h3 className="text-lg font-semibold">Toronto Green Spaces</h3>
+            <a
+              href="https://open.toronto.ca/dataset/green-spaces/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              View official Toronto Open Data source ↗
+            </a>
+            <p className="mt-2 leading-relaxed text-slate-600">
+              Provides park boundaries used in the Parks &amp; Washrooms
+              Explorer to analyze 1,628 unique parks, identify candidate
+              sites within park boundaries, and calculate straight-line
+              distances to the nearest recorded candidate site.
+            </p>
+          </div>
+
+          <p className="text-sm leading-relaxed text-slate-600">
+            Data sources: City of Toronto Open Data, licensed under the{" "}
+            <a
+              href="https://open.toronto.ca/open-data-license/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-700 hover:underline"
+            >
+              Open Government Licence – Toronto
+            </a>.
+            CivicAccess is an independent analysis and is not endorsed
+            by the City of Toronto. Original dataset retrieval dates
+            have not been verified.
+          </p>
         </section>
 
         <section className="mt-12 rounded-2xl border border-slate-200 bg-white p-7">
